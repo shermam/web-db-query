@@ -1,0 +1,10 @@
+:host{
+    display: flex;
+    background-color: #293955;
+    color: #FFFFFF;
+    height: 100%;
+}
+
+app-object-explorer{
+    width: 30%;
+}

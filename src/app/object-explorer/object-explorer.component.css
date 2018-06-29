@@ -1,0 +1,17 @@
+:host{
+    height: calc(100% - 10px);
+    background: #FFFFFF;
+    margin: 5px;
+    border: 2px solid #9badd1;
+    font-size: 0.8em;
+}
+
+.title-bar{
+    background-color: #4d6082;
+    padding: 5px;
+}
+
+.object-tree{
+    color: #000000;
+    padding: 5px;    
+}
