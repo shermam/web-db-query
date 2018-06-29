@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "PostoFacil-query": {
+    "web-db-query": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/PostoFacil-query",
+            "outputPath": "dist/web-db-query",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -50,18 +50,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "PostoFacil-query:build"
+            "browserTarget": "web-db-query:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "PostoFacil-query:build:production"
+              "browserTarget": "web-db-query:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "PostoFacil-query:build"
+            "browserTarget": "web-db-query:build"
           }
         },
         "test": {
@@ -95,7 +95,7 @@
         }
       }
     },
-    "PostoFacil-query-e2e": {
+    "web-db-query-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "architect": {
@@ -103,11 +103,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "PostoFacil-query:serve"
+            "devServerTarget": "web-db-query:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "PostoFacil-query:serve:production"
+              "devServerTarget": "web-db-query:serve:production"
             }
           }
         },
@@ -123,5 +123,5 @@
       }
     }
   },
-  "defaultProject": "PostoFacil-query"
+  "defaultProject": "web-db-query"
 }
