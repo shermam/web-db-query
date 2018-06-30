@@ -6,6 +6,7 @@ import { MainScreenComponent } from './main-screen/main-screen.component';
 import { ObjectExplorerComponent } from './object-explorer/object-explorer.component';
 import { QueryWindowComponent } from './query-window/query-window.component';
 import { ResultsWindowComponent } from './results-window/results-window.component';
+import { SeparatorComponent } from './separator/separator.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { ResultsWindowComponent } from './results-window/results-window.componen
     MainScreenComponent,
     ObjectExplorerComponent,
     QueryWindowComponent,
-    ResultsWindowComponent
+    ResultsWindowComponent,
+    SeparatorComponent
   ],
   imports: [
     BrowserModule

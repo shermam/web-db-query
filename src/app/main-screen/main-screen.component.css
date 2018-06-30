@@ -3,8 +3,24 @@
     background-color: #293955;
     color: #FFFFFF;
     height: 100%;
+    padding: 5px;
 }
 
 app-object-explorer{
     width: 30%;
+}
+
+app-query-window{
+    height: 50%;
+}
+
+app-results-window{
+    height: 50%;
+}
+
+.right-controls{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }

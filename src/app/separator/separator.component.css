@@ -1,0 +1,9 @@
+:host[direction="vertical"]{
+    width: 10px;
+    cursor: ew-resize;
+}
+
+:host[direction="horizontal"]{
+    height: 10px;
+    cursor: ns-resize;
+}
