@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-separator',
@@ -10,6 +10,12 @@ export class SeparatorComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+  }
+
+  @HostListener('click', ['$event'])
+  onClick(e) {
+    console.log(e);
+
   }
 
 }
