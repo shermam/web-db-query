@@ -1,5 +1,6 @@
 <app-object-explorer></app-object-explorer>
-<app-separator direction="vertical"></app-separator>
+<app-separator direction="vertical"
+               (redimension)="redimension($event)"></app-separator>
 <div class="right-controls">
   <app-query-window></app-query-window>
   <app-separator direction="horizontal"></app-separator>
