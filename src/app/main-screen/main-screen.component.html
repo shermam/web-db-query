@@ -3,7 +3,8 @@
                (redimension)="redimension($event)"></app-separator>
 <div class="right-controls">
   <app-query-window></app-query-window>
-  <app-separator direction="horizontal"></app-separator>
+  <app-separator direction="horizontal"
+                 (redimension)="redimensionControls($event)"></app-separator>
   <app-results-window></app-results-window>
 </div>
 

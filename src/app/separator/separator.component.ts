@@ -1,4 +1,4 @@
-import { Component, OnInit, HostListener, ElementRef, Output, EventEmitter } from '@angular/core';
+import { Component, OnInit, HostListener, ElementRef, Output, EventEmitter, Input } from '@angular/core';
 
 @Component({
   selector: 'app-separator',
@@ -9,6 +9,9 @@ export class SeparatorComponent implements OnInit {
 
   isMoving: boolean = false;
   parent: HTMLElement;
+
+  @Input()
+  direction: string;
 
   @Output()
   redimension: EventEmitter<number> = new EventEmitter();
@@ -38,11 +41,19 @@ export class SeparatorComponent implements OnInit {
 
   onMove(e) {
     if (this.isMoving) {
+
       const positions = this.getParentMousePosition(e);
       const parentWidth = this.parent.offsetWidth;
-      const x = positions.x;
-      const locationPercent = (x / parentWidth) * 100;
-      this.redimension.emit(locationPercent);
+      const parentHeight = this.parent.offsetHeight;
+
+      const locationPercentX = (positions.x / parentWidth) * 100;
+      const locationPercentY = (positions.y / parentHeight) * 100;
+
+      if (this.direction == "vertical") {
+        this.redimension.emit(locationPercentX);
+      } else {
+        this.redimension.emit(locationPercentY);
+      }
     }
   }
 
