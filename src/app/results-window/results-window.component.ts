@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { QueryService } from "../services/query.service";
 
 @Component({
   selector: 'app-results-window',
@@ -7,9 +8,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ResultsWindowComponent implements OnInit {
 
-  constructor() { }
+  results: any[];
+  headers: string[];
+
+  constructor(public queryService: QueryService) { }
 
   ngOnInit() {
+    this.queryService.query("teste")
+      .subscribe(result => {
+        if (!result || !result.length) return;
+        this.results = result;
+        this.headers = Object.keys(result[0]);
+      });
   }
 
 }

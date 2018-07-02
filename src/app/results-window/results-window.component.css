@@ -4,3 +4,24 @@
     font-size: 0.8em;
     color: #000000;
 }
+
+table{
+    font-size: 10px;
+    font-weight: normal;
+    border-collapse: collapse;
+}
+
+table th{
+    font-weight: normal;
+    background-color: #f0f0f0;
+}
+
+table th,
+table td{
+    border: 1px solid #c5c5c5;
+    padding: 5px;
+}
+
+td.index{
+    background-color: #f0f0f0;
+}

@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpModule } from "@angular/http";
 
 import { AppComponent } from './app.component';
 import { MainScreenComponent } from './main-screen/main-screen.component';
@@ -18,7 +19,8 @@ import { SeparatorComponent } from './separator/separator.component';
     SeparatorComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpModule
   ],
   providers: [],
   bootstrap: [AppComponent]
