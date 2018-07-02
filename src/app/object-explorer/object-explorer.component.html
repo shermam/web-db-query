@@ -2,5 +2,17 @@
   Object Explorer
 </div>
 <div class="object-tree">
-  Tree
+  <ul>
+    <li class="table-name"
+        *ngFor="let table of tables">
+      <div class="descricao">
+        <span class="plus"
+              (click)="table.showColumns = !table.showColumns">+</span>
+        {{table.name}}
+      </div>
+      <ul *ngIf="table.showColumns">
+        <li *ngFor="let column of table.columns">{{column}}</li>
+      </ul>
+    </li>
+  </ul>
 </div>

@@ -1,4 +1,6 @@
 import { Component, OnInit, ElementRef } from '@angular/core';
+import { QueryService } from "../services/query.service";
+import { Table } from "../types/table";
 
 @Component({
   selector: 'app-object-explorer',
@@ -7,16 +9,13 @@ import { Component, OnInit, ElementRef } from '@angular/core';
 })
 export class ObjectExplorerComponent implements OnInit {
 
-  // constructor(private hostElement: ElementRef) {
-  //   this.hostElement.nativeElement.addEventListener("mousemove", e => {
-  //     this.hostElement.nativeElement.style.width = `${e.offsetX + 30}px`;
-  //   });
-  // }
+  tables: Table[];
 
-  constructor() { }
+  constructor(public queryService: QueryService) { }
 
   ngOnInit() {
-
+    this.queryService.getTables()
+      .subscribe(tables => this.tables = tables);
   }
 
 }
