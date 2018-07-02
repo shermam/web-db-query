@@ -1,1 +1,3 @@
-<textarea wrap="soft"></textarea>
+<textarea wrap="soft"
+          [(ngModel)]="queryService.queryText"
+          (keydown)="keydown($event)"></textarea>

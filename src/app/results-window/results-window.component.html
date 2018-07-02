@@ -1,14 +1,14 @@
-<table>
+<table *ngIf="queryService.results">
   <thead>
     <tr>
-      <th>o</th>
-      <th *ngFor="let header of headers">{{header}}</th>
+      <th></th>
+      <th *ngFor="let header of queryService.headers">{{header}}</th>
     </tr>
   </thead>
   <tbody>
-    <tr *ngFor="let line of results; let i = index">
+    <tr *ngFor="let line of queryService.results; let i = index">
       <td class="index">{{i + 1}}</td>
-      <td *ngFor="let header of headers">{{line[header]}}</td>
+      <td *ngFor="let header of queryService.headers">{{line[header]}}</td>
     </tr>
   </tbody>
 </table>

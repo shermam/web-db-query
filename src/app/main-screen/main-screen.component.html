@@ -1,11 +1,14 @@
-<app-object-explorer></app-object-explorer>
-<app-separator direction="vertical"
-               (redimension)="redimension($event)"></app-separator>
-<div class="right-controls">
-  <app-query-window></app-query-window>
-  <app-separator direction="horizontal"
-                 (redimension)="redimensionControls($event)"></app-separator>
-  <app-results-window></app-results-window>
+<app-command-bar></app-command-bar>
+<div class="main">
+  <app-object-explorer></app-object-explorer>
+  <app-separator direction="vertical"
+                 (redimension)="redimension($event)"></app-separator>
+  <div class="right-controls">
+    <app-query-window></app-query-window>
+    <app-separator direction="horizontal"
+                   (redimension)="redimensionControls($event)"></app-separator>
+    <app-results-window></app-results-window>
+  </div>
 </div>
 
 <!-- <img src="assets/teste.png"

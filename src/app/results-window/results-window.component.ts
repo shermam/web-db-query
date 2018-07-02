@@ -8,18 +8,10 @@ import { QueryService } from "../services/query.service";
 })
 export class ResultsWindowComponent implements OnInit {
 
-  results: any[];
-  headers: string[];
-
   constructor(public queryService: QueryService) { }
 
   ngOnInit() {
-    this.queryService.query("teste")
-      .subscribe(result => {
-        if (!result || !result.length) return;
-        this.results = result;
-        this.headers = Object.keys(result[0]);
-      });
+
   }
 
 }

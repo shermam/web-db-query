@@ -1,9 +1,14 @@
-:host{
+.main{
     display: flex;
     background-color: #293955;
     color: #FFFFFF;
-    height: 100%;
+    height: calc(100vh - 40px);
     padding: 5px;
+}
+
+app-command-bar{
+    display: flex;
+    height: 40px;
 }
 
 app-object-explorer{

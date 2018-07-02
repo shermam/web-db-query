@@ -1,0 +1,18 @@
+:host{
+    background-color: #d6dbe9;
+    padding: 5px;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    background: #d6dbe9;
+    box-shadow: 2px 4px 6px 0px rgba(0, 0, 0, 0.38);
+}
+
+button span{
+    margin-right: 5px;
+    color: green;
+}
