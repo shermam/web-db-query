@@ -7,7 +7,7 @@
         *ngFor="let table of queryService.tables">
       <div class="descricao">
         <span class="plus"
-              (click)="table.showColumns = !table.showColumns">+</span>
+              (click)="table.showColumns = !table.showColumns">{{table.showColumns?'-':'+'}}</span>
         {{table.name}}
       </div>
       <ul *ngIf="table.showColumns">

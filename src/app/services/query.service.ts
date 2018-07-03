@@ -4,6 +4,7 @@ import { map } from "rxjs/operators";
 import { Structure } from "../types/structure";
 import { Table } from "../types/table";
 import { Http } from "@angular/http";
+import { TranslateService } from "../services/translate.service";
 
 @Injectable({
   providedIn: 'root'
@@ -15,10 +16,13 @@ export class QueryService {
   headers: string[];
   queryText: string;
   serverURL: string = "http://localhost:61467/server/ashx/_query.ashx";
-  queryStructure: string = "select table_name, column_name from information_schema.columns order by table_name;";
+  queryStructure: string = "select table_name, column_name from information_schema.columns order by TABLE_NAME, ORDINAL_POSITION;";
   connectionString: string = localStorage.getItem("connectionString");
 
-  constructor(private http: Http) {
+  constructor(
+    private http: Http,
+    private translateService: TranslateService
+  ) {
     this.refreshTables();
   }
 
@@ -38,6 +42,10 @@ export class QueryService {
       return of(null);
     }
 
+    // It is not possible to translate the query because the conseptual
+    // name are not unique
+    // queryText = this.translateService.translateName(queryText);
+
     return this.http.post(this.serverURL, {
       Query: queryText,
       ConnectionString: this.connectionString
@@ -48,6 +56,9 @@ export class QueryService {
 
   excecuteQuery() {
     this.query(this.queryText)
+      .pipe(
+        map(this.translateService.translateKey)
+      )
       .subscribe(result => {
         if (!result || !result.length) return;
         this.results = result;
@@ -60,8 +71,14 @@ export class QueryService {
     //return this.http.get("assets/tabelas.json")
     return this.query(this.queryStructure)
       .pipe(
-        map(response => this.structureToTable(response))
+        map(this.translateService.translateValue),
+        map(response => this.structureToTable(response)),
+        map(this.orderTables)
       );
+  }
+
+  orderTables(input: Table[]): Table[] {
+    return input.sort((a, b) => a.name > b.name ? 1 : -1);
   }
 
   structureToTable(structures: Structure[]): Table[] {

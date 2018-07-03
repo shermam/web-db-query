@@ -1,0 +1,6290 @@
+{
+  "V3MARTPT": {
+    "name": "TabelaArqueacaoTanquePosto",
+    "code": "V3MARTPT",
+    "columns": [
+      {
+        "name": "IdentificadorTabelaArqueacaoTanque",
+        "code": "V3MIDEAT"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V3MDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V3MUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V3MDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V3MUSUAT"
+      },
+      {
+        "name": "IdentificadorTanquePostoAbastecimento",
+        "code": "V3MIDETP"
+      },
+      {
+        "name": "NomeOrgaoCertificador",
+        "code": "V3MNOMOC"
+      },
+      {
+        "name": "NumeroCertificado",
+        "code": "V3MNUMCE"
+      },
+      {
+        "name": "DataValidadeCertificado",
+        "code": "V3MDTVAL"
+      },
+      {
+        "name": "IndicadorAtivo",
+        "code": "V3MATIVO"
+      }
+    ]
+  },
+  "V3NMAATT": {
+    "name": "DetalheTabelaArqueacaoTanquePosto",
+    "code": "V3NMAATT",
+    "columns": [
+      {
+        "name": "IdentificadorDetalheTabelaArqueacaoTanquePosto",
+        "code": "V3NIDEDA"
+      },
+      {
+        "name": "IdentificadorTabelaArqueacaoTanque",
+        "code": "V3NIDEAT"
+      },
+      {
+        "name": "MedidaAlturaProduto",
+        "code": "V3NALTUR"
+      },
+      {
+        "name": "QuantidadeProduto",
+        "code": "V3NVOLUM"
+      }
+    ]
+  },
+  "V4DARVTT": {
+    "name": "TabelaArqueacaoVagaoTanque",
+    "code": "V4DARVTT",
+    "columns": [
+      {
+        "name": "IdentificadorTabelaArqueacaoVagaoTanque",
+        "code": "V4DIDEAV"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V4DDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V4DUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V4DDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V4DUSUAT"
+      },
+      {
+        "name": "IndicadorAtivo",
+        "code": "V4DATIVO"
+      },
+      {
+        "name": "IdentificadorVagaoTanque",
+        "code": "V4DIDEVT"
+      },
+      {
+        "name": "NomeOrgaoCertificador",
+        "code": "V4DDECOC"
+      },
+      {
+        "name": "NumeroCertificado",
+        "code": "V4DNUMCE"
+      },
+      {
+        "name": "DataValidadeCertificado",
+        "code": "V4DDTHVC"
+      }
+    ]
+  },
+  "V4EMAAVT": {
+    "name": "DetalheArqueacaoVagaoTanque",
+    "code": "V4EMAAVT",
+    "columns": [
+      {
+        "name": "IdentificadorDetalheArqueacaoVagaoTanque",
+        "code": "V4EIDEDA"
+      },
+      {
+        "name": "IdentificadorTabelaArqueacaoVagaoTanque",
+        "code": "V4EIDEAV"
+      },
+      {
+        "name": "MedidaAlturaEspacoVazio",
+        "code": "V4EALTUR"
+      },
+      {
+        "name": "QuantidadeProduto",
+        "code": "V4EVOLUM"
+      }
+    ]
+  },
+  "V4RASVCT": {
+    "name": "AspectoVisualProduto",
+    "code": "V4RASVCT",
+    "columns": [
+      {
+        "name": "IdentificadorAspectoVisual",
+        "code": "V4RIDEAV"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V4RDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V4RUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V4RDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V4RUSUAT"
+      },
+      {
+        "name": "IndicadorAtivo",
+        "code": "V4RATIVO"
+      },
+      {
+        "name": "Descricao",
+        "code": "V4RDESCR"
+      }
+    ]
+  },
+  "V4OBLMET": {
+    "name": "BlocoMedidor",
+    "code": "V4OBLMET",
+    "columns": [
+      {
+        "name": "IdentificadorBlocoMedidor",
+        "code": "V4OIDEBM"
+      },
+      {
+        "name": "DataHoraLocalCriacao",
+        "code": "V4ODTLCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V4OUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V4ODTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V4OUSUAT"
+      },
+      {
+        "name": "IndicadorAtivo",
+        "code": "V4OATIVO"
+      },
+      {
+        "name": "IdentificadorProdutoPosto",
+        "code": "V4OIDEPP"
+      },
+      {
+        "name": "Codigo",
+        "code": "V4OCODIG"
+      },
+      {
+        "name": "Descricao",
+        "code": "V4ODESCR"
+      },
+      {
+        "name": "QuantidadeLitrosToleranciaAcimaEncerrante",
+        "code": "V4OQTACE"
+      },
+      {
+        "name": "QuantidadeLitrosToleranciaAbaixoEncerrante",
+        "code": "V4OQTABE"
+      },
+      {
+        "name": "QuantidadeTotalDigitos",
+        "code": "V4OQTTDG"
+      },
+      {
+        "name": "QuantidadeDigitosDecimais",
+        "code": "V4OQTDGD"
+      }
+    ]
+  },
+  "V4VCOCTT": {
+    "name": "CompartimentoCaminhaoTanque",
+    "code": "V4VCOCTT",
+    "columns": [
+      {
+        "name": "IdentificadorCompartimentoCaminhaoTanque",
+        "code": "V4VIDECC"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V4VDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V4VUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V4VDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V4VUSUAT"
+      },
+      {
+        "name": "IndicadorAtivo",
+        "code": "V4VATIVO"
+      },
+      {
+        "name": "IdentificadorCaminhaoTanque",
+        "code": "V4VIDECT"
+      },
+      {
+        "name": "CapacidadeNominal",
+        "code": "V4VCAPNO"
+      }
+    ]
+  },
+  "V4SCATAT": {
+    "name": "CaminhaoTanque",
+    "code": "V4SCATAT",
+    "columns": [
+      {
+        "name": "IdentificadorCaminhaoTanque",
+        "code": "V4SIDECT"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V4SDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V4SUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V4SDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V4SUSUAT"
+      },
+      {
+        "name": "IndicadorAtivo",
+        "code": "V4SATIVO"
+      },
+      {
+        "name": "CodigoPlaca",
+        "code": "V4SCODPL"
+      },
+      {
+        "name": "Descricao",
+        "code": "V4SDESCR"
+      },
+      {
+        "name": "CodigoRenavam",
+        "code": "V4SCODRN"
+      },
+      {
+        "name": "AnoFabricacao",
+        "code": "V4SANOFA"
+      },
+      {
+        "name": "NomeOrgaoCertificador",
+        "code": "V4SDECOC"
+      },
+      {
+        "name": "NumeroCertificado",
+        "code": "V4SNUMCE"
+      },
+      {
+        "name": "DataValidadeCertificado",
+        "code": "V4SDTHVC"
+      }
+    ]
+  },
+  "V35RELAT": {
+    "name": "Relatorio",
+    "code": "V35RELAT",
+    "columns": [
+      {
+        "name": "IdentificadorRelatorio",
+        "code": "V35IDERL"
+      },
+      {
+        "name": "CodigoRelatorio",
+        "code": "V35CODIG"
+      },
+      {
+        "name": "Nome",
+        "code": "V35DESCR"
+      },
+      {
+        "name": "TextoQuery",
+        "code": "V35QUERY"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V35DTUCR"
+      }
+    ]
+  },
+  "V36FILTT": {
+    "name": "FiltroRelatorio",
+    "code": "V36FILTT",
+    "columns": [
+      {
+        "name": "IdentificadorFiltroRelatorio",
+        "code": "V36IDEFI"
+      },
+      {
+        "name": "IdentificadorRelatorio",
+        "code": "V36IDERL"
+      },
+      {
+        "name": "CodigoFiltro",
+        "code": "V36CODIG"
+      },
+      {
+        "name": "TextoQuery",
+        "code": "V36QUERY"
+      },
+      {
+        "name": "CodigoTipoFiltro",
+        "code": "V36INDTP"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V36DTUCR"
+      }
+    ]
+  },
+  "V4TCAMET": {
+    "name": "CavaloMecanico",
+    "code": "V4TCAMET",
+    "columns": [
+      {
+        "name": "IdentificadorCavaloMecanico",
+        "code": "V4TIDECM"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V4TDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V4TUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V4TDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V4TUSUAT"
+      },
+      {
+        "name": "IndicadorAtivo",
+        "code": "V4TATIVO"
+      },
+      {
+        "name": "CodigoPlaca",
+        "code": "V4TCODPL"
+      },
+      {
+        "name": "Descricao",
+        "code": "V4TDESCR"
+      },
+      {
+        "name": "CodigoRenavam",
+        "code": "V4TCODRN"
+      },
+      {
+        "name": "AnoFabricacao",
+        "code": "V4TANOFA"
+      }
+    ]
+  },
+  "V3DCECUT": {
+    "name": "CentroCusto",
+    "code": "V3DCECUT",
+    "columns": [
+      {
+        "name": "IdentificadorCentroCusto",
+        "code": "V3DIDECC"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V3DDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V3DUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V3DDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V3DUSUAT"
+      },
+      {
+        "name": "IndicadorAtivo",
+        "code": "V3DATIVO"
+      },
+      {
+        "name": "CodigoCentroCusto",
+        "code": "V3DCODCC"
+      },
+      {
+        "name": "IdentificadorGerencia",
+        "code": "V3DIDEGE"
+      },
+      {
+        "name": "DataInicioVigencia",
+        "code": "V3DDATIV"
+      },
+      {
+        "name": "DataFimVigencia",
+        "code": "V3DDATFV"
+      }
+    ]
+  },
+  "V3ICOMPT": {
+    "name": "Complexo",
+    "code": "V3ICOMPT",
+    "columns": [
+      {
+        "name": "IdentificadorComplexo",
+        "code": "V3IIDECO"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V3IDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V3IUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V3IDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V3IUSUAT"
+      },
+      {
+        "name": "IndicadorAtivo",
+        "code": "V3IATIVO"
+      },
+      {
+        "name": "IdentificadorDiretoria",
+        "code": "V3IIDEDI"
+      },
+      {
+        "name": "Codigo",
+        "code": "V3ICODIG"
+      },
+      {
+        "name": "Nome",
+        "code": "V3INOMEC"
+      }
+    ]
+  },
+  "V3CCONTT": {
+    "name": "Contrato",
+    "code": "V3CCONTT",
+    "columns": [
+      {
+        "name": "IdentificadorContrato",
+        "code": "V3CIDECT"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V3CDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V3CUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V3CDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V3CUSUAT"
+      },
+      {
+        "name": "IndicadorTipoPrestacaoServico",
+        "code": "V3CINDCS"
+      },
+      {
+        "name": "NumeroContratoSPS",
+        "code": "V3CNUMCO"
+      },
+      {
+        "name": "IdentificadorEmpresa",
+        "code": "V3CIDEEM"
+      },
+      {
+        "name": "Descricao",
+        "code": "V3CDESCR"
+      },
+      {
+        "name": "DataInicioVigencia",
+        "code": "V3CDATIV"
+      },
+      {
+        "name": "DataFimVigencia",
+        "code": "V3CDATFV"
+      },
+      {
+        "name": "IndicadorAtivo",
+        "code": "V3CATISP"
+      },
+      {
+        "name": "IndicadorEstrategiaLiberacao",
+        "code": "V3CINELI"
+      }
+    ]
+  },
+  "V4NCOD2T": {
+    "name": "ConversaoDensidade20Graus",
+    "code": "V4NCOD2T",
+    "columns": [
+      {
+        "name": "IdentificadorConversaoDensidade20Graus",
+        "code": "V4NIDECD"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V4NDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V4NUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V4NDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V4NUSUAT"
+      },
+      {
+        "name": "IdentificadorProduto",
+        "code": "V4NIDEPR"
+      },
+      {
+        "name": "MedidaTemperaturaAmostra",
+        "code": "V4NTEMPA"
+      },
+      {
+        "name": "MedidaDensidadeAmostra",
+        "code": "V4NDENSI"
+      },
+      {
+        "name": "MedidaDensidade20GrausCelsius",
+        "code": "V4NDENSG"
+      }
+    ]
+  },
+  "V4MCOV2T": {
+    "name": "ConversaoVolume20Graus",
+    "code": "V4MCOV2T",
+    "columns": [
+      {
+        "name": "IdentificadorConversaoVolume20Graus",
+        "code": "V4MIDECV"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V4MDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V4MUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V4MDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V4MUSUAT"
+      },
+      {
+        "name": "IdentificadorProduto",
+        "code": "V4MIDEPR"
+      },
+      {
+        "name": "MedidaTemperaturaAmostra",
+        "code": "V4MTEMPA"
+      },
+      {
+        "name": "MedidaDensidade20GrausCelsius",
+        "code": "V4MDENSI"
+      },
+      {
+        "name": "FatorCorrecaoVolume",
+        "code": "V4MFATOR"
+      }
+    ]
+  },
+  "V3HDIRET": {
+    "name": "Diretoria",
+    "code": "V3HDIRET",
+    "columns": [
+      {
+        "name": "IdentificadorDiretoria",
+        "code": "V3HIDEDI"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V3HDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V3HUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V3HDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V3HUSUAT"
+      },
+      {
+        "name": "IndicadorAtivo",
+        "code": "V3HATIVO"
+      },
+      {
+        "name": "Codigo",
+        "code": "V3HCODIG"
+      },
+      {
+        "name": "Nome",
+        "code": "V3HNOMED"
+      },
+      {
+        "name": "PesoBrutoLimiteDiferencaRecebimento",
+        "code": "V3HDIFPE"
+      },
+      {
+        "name": "IndicePercentualLimiteDiferencaRecebimento",
+        "code": "V3HINDRE"
+      },
+      {
+        "name": "IndicePercentualLimiteDiferencaEstoqueFisico",
+        "code": "V3HINDEF"
+      },
+      {
+        "name": "QuantidadeLimiteDiferencaEstoqueFisico",
+        "code": "V3HVOLEF"
+      },
+      {
+        "name": "IndicePercentualLimiteDiferencaEstoqueFisicoContabil",
+        "code": "V3HINDFC"
+      },
+      {
+        "name": "QuantidadeLimiteDiferencaEstoqueFisicoContabil",
+        "code": "V3HVOLFC"
+      },
+      {
+        "name": "IndicePercentualVariacaoConsumoEspecifico",
+        "code": "V3HINDCE"
+      },
+      {
+        "name": "IndicadorAprovacaoAtualizacaoEquipamento",
+        "code": "V3HINDAE"
+      }
+    ]
+  },
+  "V3EELPET": {
+    "name": "ElementoPEP",
+    "code": "V3EELPET",
+    "columns": [
+      {
+        "name": "IdentificadorElementoPEP",
+        "code": "V3EIDEEP"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V3EDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V3EUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V3EDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V3EUSUAT"
+      },
+      {
+        "name": "IndicadorAtivoSAP",
+        "code": "V3EATISP"
+      },
+      {
+        "name": "IndicadorAtivoPostoFacil",
+        "code": "V3EATIVO"
+      },
+      {
+        "name": "CodigoElementoPEP",
+        "code": "V3ECODEP"
+      },
+      {
+        "name": "IdentificadorGerencia",
+        "code": "V3EIDEGE"
+      }
+    ]
+  },
+  "V3BEMPRT": {
+    "name": "Empresa",
+    "code": "V3BEMPRT",
+    "columns": [
+      {
+        "name": "IdentificadorEmpresa",
+        "code": "V3BIDEEM"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V3BDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V3BUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V3BDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V3BUSUAT"
+      },
+      {
+        "name": "IndicadorAtivo",
+        "code": "V3BATIVO"
+      },
+      {
+        "name": "IdentificadorSAP",
+        "code": "V3BIDESA"
+      },
+      {
+        "name": "IdentificadorClassificacaoEmpresa",
+        "code": "V3BIDECE"
+      },
+      {
+        "name": "Nome",
+        "code": "V3BNOMEE"
+      },
+      {
+        "name": "NumeroInscricaoCadastroPessoasJuridicas",
+        "code": "V3BCADPJ"
+      },
+      {
+        "name": "EnderecoEmail",
+        "code": "V3BENDEM"
+      },
+      {
+        "name": "NumeroTelefone",
+        "code": "V3BNUMTE"
+      }
+    ]
+  },
+  "V3ACLEMT": {
+    "name": "ClassificacaoEmpresa",
+    "code": "V3ACLEMT",
+    "columns": [
+      {
+        "name": "IdentificadorClassificacaoEmpresa",
+        "code": "V3AIDECE"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V3ADTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V3AUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V3ADTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V3AUSUAT"
+      },
+      {
+        "name": "IndicadorAtivo",
+        "code": "V3AATIVO"
+      },
+      {
+        "name": "Descricao",
+        "code": "V3ADESCR"
+      }
+    ]
+  },
+  "V3SEQABT": {
+    "name": "EquipamentoPostoFacil",
+    "code": "V3SEQABT",
+    "columns": [
+      {
+        "name": "IdentificadorEquipamento",
+        "code": "V3SIDEEQ"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V3SDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V3SUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V3SDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V3SUSUAT"
+      },
+      {
+        "name": "IndicadorSituacaoEquipamento",
+        "code": "V3SINDST"
+      },
+      {
+        "name": "IdentificadorTipoEquipamento",
+        "code": "V3SIDTPE"
+      },
+      {
+        "name": "IdentificadorTipoFiscalEquipamento",
+        "code": "V3SIDETF"
+      },
+      {
+        "name": "IdentificadorTipoGRIEquipamento",
+        "code": "V3SIDETG"
+      },
+      {
+        "name": "IdentificadorModelo",
+        "code": "V3SIDEMO"
+      },
+      {
+        "name": "IndicadorRateioAbastecimentoCentroCusto",
+        "code": "V3SINDRA"
+      },
+      {
+        "name": "IdentificadorCentroCusto",
+        "code": "V3SIDECC"
+      },
+      {
+        "name": "IdentificadorElementoPEP",
+        "code": "V3SIDEEP"
+      },
+      {
+        "name": "IdentificadorOrdemEstatistica",
+        "code": "V3SIDEOE"
+      },
+      {
+        "name": "IndicadorEquipamentoProprio",
+        "code": "V3SINDEP"
+      },
+      {
+        "name": "IdentificadorContrato",
+        "code": "V3SIDECT"
+      },
+      {
+        "name": "IdentificadorComplexo",
+        "code": "V3SIDECO"
+      },
+      {
+        "name": "CodigoTag",
+        "code": "V3SCDTAG"
+      },
+      {
+        "name": "CodigoPlaca",
+        "code": "V3SCODPL"
+      },
+      {
+        "name": "CodigoEquipamento",
+        "code": "V3SCODIG"
+      },
+      {
+        "name": "IndicadorTipoCodigoEquipamento",
+        "code": "V3SINDCD"
+      },
+      {
+        "name": "CodigoRenavamNumeroPatrimonio",
+        "code": "V3SCODRN"
+      },
+      {
+        "name": "AnoFabricacao",
+        "code": "V3SANOFA"
+      },
+      {
+        "name": "IndicadorTipoLeitura",
+        "code": "V3SINDTL"
+      },
+      {
+        "name": "QuantidadeDigitosMaximaLeitura",
+        "code": "V3SQTDML"
+      },
+      {
+        "name": "IdentificadorImagemDUT",
+        "code": "V3SIDIMG"
+      }
+    ]
+  },
+  "V3YTIEAT": {
+    "name": "TipoEquipamento",
+    "code": "V3YTIEAT",
+    "columns": [
+      {
+        "name": "IdentificadorTipoEquipamentoAbastecimento",
+        "code": "V3YIDTPE"
+      },
+      {
+        "name": "IndicadorAtivo",
+        "code": "V3YATIVO"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V3YDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V3YUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V3YDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V3YUSUAT"
+      }
+    ]
+  },
+  "V3GGERET": {
+    "name": "Gerencia",
+    "code": "V3GGERET",
+    "columns": [
+      {
+        "name": "IdentificadorGerencia",
+        "code": "V3GIDEGE"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V3GDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V3GUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V3GDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V3GUSUAT"
+      },
+      {
+        "name": "IndicadorAtivo",
+        "code": "V3GATIVO"
+      },
+      {
+        "name": "Codigo",
+        "code": "V3GCODIG"
+      },
+      {
+        "name": "Nome",
+        "code": "V3GNOMEG"
+      },
+      {
+        "name": "IdentificadorDiretoria",
+        "code": "V3GIDEDI"
+      }
+    ]
+  },
+  "V30TGRIT": {
+    "name": "TipoGRIEquipamento",
+    "code": "V30TGRIT",
+    "columns": [
+      {
+        "name": "IdentificadorTipoGRIEquipamento",
+        "code": "V30IDETG"
+      },
+      {
+        "name": "IndicadorAtivo",
+        "code": "V30ATIVO"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V30DTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V30USUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V30DTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V30USUAT"
+      }
+    ]
+  },
+  "V48GRANT": {
+    "name": "GrupoAnomalia",
+    "code": "V48GRANT",
+    "columns": [
+      {
+        "name": "IdentificadorGrupoAnomalia",
+        "code": "V48IDEGA"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V48DTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V48USUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V48DTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V48USUAT"
+      },
+      {
+        "name": "IndicadorGeracaoAutomaticaOcorrencia",
+        "code": "V48INDGA"
+      }
+    ]
+  },
+  "V3QGRTCT": {
+    "name": "GrupoTurnoComplexo",
+    "code": "V3QGRTCT",
+    "columns": [
+      {
+        "name": "IdentificadorGrupoTurnoComplexo",
+        "code": "V3QGRUTC"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V3QDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V3QUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V3QDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V3QUSUAT"
+      },
+      {
+        "name": "IdentificadorComplexo",
+        "code": "V3QIDECO"
+      },
+      {
+        "name": "Descricao",
+        "code": "V3QDESCR"
+      },
+      {
+        "name": "IndicadorAtivo",
+        "code": "V3QATIVO"
+      }
+    ]
+  },
+  "V3RIMAGT": {
+    "name": "Imagem",
+    "code": "V3RIMAGT",
+    "columns": [
+      {
+        "name": "IdentificadorImagem",
+        "code": "V3RIDIMG"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V3RDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V3RUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V3RDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V3RUSUAT"
+      },
+      {
+        "name": "ArquivoImagem",
+        "code": "V3RIMAGE"
+      }
+    ]
+  },
+  "V4WITANT": {
+    "name": "ItemAnomalia",
+    "code": "V4WITANT",
+    "columns": [
+      {
+        "name": "IdentificadorItemAnomalia",
+        "code": "V4WIDEIA"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V4WDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V4WUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V4WDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V4WUSUAT"
+      },
+      {
+        "name": "IndicadorAtivo",
+        "code": "V4WATIVO"
+      },
+      {
+        "name": "IndicadorGeracaoAutomaticaOcorrencia",
+        "code": "V4WINDGA"
+      }
+    ]
+  },
+  "V3WMAEAT": {
+    "name": "MarcaEquipamento",
+    "code": "V3WMAEAT",
+    "columns": [
+      {
+        "name": "IdentificadorMarcaEquipamento",
+        "code": "V3WIDEME"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V3WDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V3WUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V3WDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V3WUSUAT"
+      },
+      {
+        "name": "Nome",
+        "code": "V3WNOMEM"
+      },
+      {
+        "name": "IndicadorAtivo",
+        "code": "V3WATIVO"
+      }
+    ]
+  },
+  "V3XMOEAT": {
+    "name": "ModeloEquipamento",
+    "code": "V3XMOEAT",
+    "columns": [
+      {
+        "name": "IdentificadorModelo",
+        "code": "V3XIDEMO"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V3XDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V3XUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V3XDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V3XUSUAT"
+      },
+      {
+        "name": "IdentificadorMarcaEquipamento",
+        "code": "V3XIDEME"
+      },
+      {
+        "name": "Nome",
+        "code": "V3XNOMEM"
+      },
+      {
+        "name": "IndicadorAtivo",
+        "code": "V3XATIVO"
+      }
+    ]
+  },
+  "V4UMOCTT": {
+    "name": "MotoristaCavaloCaminhaoTanque",
+    "code": "V4UMOCTT",
+    "columns": [
+      {
+        "name": "IdentificadorMotoristaCaminhaoTanque",
+        "code": "V4UIDEMC"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V4UDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V4UUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V4UDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V4UUSUAT"
+      },
+      {
+        "name": "IndicadorAtivo",
+        "code": "V4UATIVO"
+      },
+      {
+        "name": "Nome",
+        "code": "V4UNOMEM"
+      },
+      {
+        "name": "NumeroCNH",
+        "code": "V4UNUCNH"
+      },
+      {
+        "name": "DataVencimentoCNH",
+        "code": "V4UDTCNH"
+      },
+      {
+        "name": "CodigoCategoriaCNH",
+        "code": "V4UCTCNH"
+      }
+    ]
+  },
+  "V4YNIANT": {
+    "name": "NivelAnomalia",
+    "code": "V4YNIANT",
+    "columns": [
+      {
+        "name": "IdentificadorNivel",
+        "code": "V4YIDENI"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V4YDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V4YUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V4YDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V4YUSUAT"
+      }
+    ]
+  },
+  "V3FOREST": {
+    "name": "OrdemEstatistica",
+    "code": "V3FOREST",
+    "columns": [
+      {
+        "name": "IdentificadorOrdemEstatistica",
+        "code": "V3FIDEOE"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V3FDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V3FUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V3FDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V3FUSUAT"
+      },
+      {
+        "name": "IndicadorAtivoSAP",
+        "code": "V3FATISP"
+      },
+      {
+        "name": "IndicadorAtivoPostoFacil",
+        "code": "V3FATIVO"
+      },
+      {
+        "name": "CodigoOrdemEstatistica",
+        "code": "V3FCODOE"
+      },
+      {
+        "name": "IdentificadorGerencia",
+        "code": "V3FIDEGE"
+      }
+    ]
+  },
+  "V3KPOABT": {
+    "name": "PostoAbastecimento",
+    "code": "V3KPOABT",
+    "columns": [
+      {
+        "name": "IdentificadorPostoAbastecimento",
+        "code": "V3KIDEPA"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V3KDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V3KUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V3KDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V3KUSUAT"
+      },
+      {
+        "name": "IndicadorAtivo",
+        "code": "V3KATIVO"
+      },
+      {
+        "name": "IdentificadorUnidadeOperacional",
+        "code": "V3KIDEUO"
+      },
+      {
+        "name": "Sigla",
+        "code": "V3KSIGLA"
+      },
+      {
+        "name": "Nome",
+        "code": "V3KNOMEP"
+      },
+      {
+        "name": "IdentificadorGrupoTurnoComplexo",
+        "code": "V3KGRUTC"
+      },
+      {
+        "name": "IndicadorPostoFixoMovel",
+        "code": "V3KTIPAB"
+      },
+      {
+        "name": "IndicadorTipoVeiculoAbastecimento",
+        "code": "V3KINDVA"
+      },
+      {
+        "name": "IndicadorPostoRessuprimento",
+        "code": "V3KINDRS"
+      }
+    ]
+  },
+  "V4PPRODT": {
+    "name": "ProdutoPostoFacil",
+    "code": "V4PPRODT",
+    "columns": [
+      {
+        "name": "IdentificadorProduto",
+        "code": "V4PIDEPR"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V4PDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V4PUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V4PDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V4PUSUAT"
+      },
+      {
+        "name": "IndicadorAtivo",
+        "code": "V4PATIVO"
+      },
+      {
+        "name": "CodigoMaterialSAP",
+        "code": "V4PCDSAP"
+      },
+      {
+        "name": "IdentificadorTipoProduto",
+        "code": "V4PIDETP"
+      },
+      {
+        "name": "MedidaDensidadeTolerancia",
+        "code": "V4PMEDDT"
+      },
+      {
+        "name": "FTR_ACEITE_PARTICULADO",
+        "code": "V4PFATAP"
+      }
+    ]
+  },
+  "V4ICLPRT": {
+    "name": "ClasseProduto",
+    "code": "V4ICLPRT",
+    "columns": [
+      {
+        "name": "IdentificadorClasse",
+        "code": "V4IIDECL"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V4IDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V4IUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V4IDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V4IUSUAT"
+      },
+      {
+        "name": "IndicadorAtivo",
+        "code": "V4IATIVO"
+      }
+    ]
+  },
+  "V4KTIPRT": {
+    "name": "TipoProduto",
+    "code": "V4KTIPRT",
+    "columns": [
+      {
+        "name": "IdentificadorTipoProduto",
+        "code": "V4KIDETP"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V4KDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V4KUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V4KDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V4KUSUAT"
+      },
+      {
+        "name": "IndicadorAtivo",
+        "code": "V4KATIVO"
+      },
+      {
+        "name": "IdentificadorClasse",
+        "code": "V4KIDECL"
+      }
+    ]
+  },
+  "V4FEQPAT": {
+    "name": "TanqueEquipamento",
+    "code": "V4FEQPAT",
+    "columns": [
+      {
+        "name": "IdentificadorTanqueEquipamento",
+        "code": "V4FIDETE"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V4FDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V4FUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V4FDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V4FUSUAT"
+      },
+      {
+        "name": "IndicadorAtivo",
+        "code": "V4FATIVO"
+      },
+      {
+        "name": "IdentificadorEquipamento",
+        "code": "V4FIDEEQ"
+      },
+      {
+        "name": "Codigo",
+        "code": "V4FCODIG"
+      },
+      {
+        "name": "CapacidadeNominal",
+        "code": "V4FCAPNO"
+      }
+    ]
+  },
+  "V3LTAPAT": {
+    "name": "TanquePostoAbastecimento",
+    "code": "V3LTAPAT",
+    "columns": [
+      {
+        "name": "IdentificadorTanquePostoAbastecimento",
+        "code": "V3LIDETP"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V3LDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V3LUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V3LDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V3LUSUAT"
+      },
+      {
+        "name": "IndicadorAtivo",
+        "code": "V3LATIVO"
+      },
+      {
+        "name": "IdentificadorProdutoPosto",
+        "code": "V3LIDEDP"
+      },
+      {
+        "name": "Codigo",
+        "code": "V3LCODIG"
+      },
+      {
+        "name": "Nome",
+        "code": "V3LNOMET"
+      },
+      {
+        "name": "IndicadorTipoTanque",
+        "code": "V3LINDTT"
+      },
+      {
+        "name": "CapacidadeNominal",
+        "code": "V3LCAPNO"
+      },
+      {
+        "name": "CapacidadeCritica",
+        "code": "V3LCAPCR"
+      },
+      {
+        "name": "CapacidadeLastro",
+        "code": "V3LCAPLA"
+      },
+      {
+        "name": "MedidaComprimentoInterno",
+        "code": "V3LMEDCP"
+      },
+      {
+        "name": "MedidaLarguraInterna",
+        "code": "V3LMEDLA"
+      },
+      {
+        "name": "MedidaAlturaInterna",
+        "code": "V3LMEDAL"
+      },
+      {
+        "name": "MedidaDiametroInterno",
+        "code": "V3LMEDDI"
+      },
+      {
+        "name": "MedidaRaioEsferica",
+        "code": "V3LMEDRA"
+      },
+      {
+        "name": "MedidaProfundidadeEsferica",
+        "code": "V3LMEDPR"
+      },
+      {
+        "name": "MedidaSemiEixoMenorEliptica",
+        "code": "V3LMEDSE"
+      },
+      {
+        "name": "MedidaEixoMenorEliptica",
+        "code": "V3LMEDEE"
+      },
+      {
+        "name": "MedidaEixoMaiorEliptica",
+        "code": "V3LMEDEM"
+      },
+      {
+        "name": "IndicadorCalculoBaseAlturaRegua",
+        "code": "V3LINDBA"
+      },
+      {
+        "name": "CodigoUnidadeMedidaRegua",
+        "code": "V3LUNIDA"
+      }
+    ]
+  },
+  "V3TTIFET": {
+    "name": "TipoFiscalEquipamento",
+    "code": "V3TTIFET",
+    "columns": [
+      {
+        "name": "IdentificadorTipoFiscalEquipamento",
+        "code": "V3TIDETF"
+      },
+      {
+        "name": "IndicadorAtivo",
+        "code": "V3TATIVO"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V3TDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V3TUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V3TDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V3TUSUAT"
+      }
+    ]
+  },
+  "V3OTURNT": {
+    "name": "Turno",
+    "code": "V3OTURNT",
+    "columns": [
+      {
+        "name": "IdentificadorTurno",
+        "code": "V3OIDETU"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V3ODTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V3OUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V3ODTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V3OUSUAT"
+      },
+      {
+        "name": "IndicadorAtivo",
+        "code": "V3OATIVO"
+      },
+      {
+        "name": "HoraInicio",
+        "code": "V3OHORIN"
+      },
+      {
+        "name": "HoraFim",
+        "code": "V3OHORFI"
+      }
+    ]
+  },
+  "V3JUNOPT": {
+    "name": "UnidadeOperacional",
+    "code": "V3JUNOPT",
+    "columns": [
+      {
+        "name": "IdentificadorUnidadeOperacional",
+        "code": "V3JIDEUO"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V3JDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V3JUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V3JDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V3JUSUAT"
+      },
+      {
+        "name": "IndicadorAtivo",
+        "code": "V3JATIVO"
+      },
+      {
+        "name": "IdentificadorComplexo",
+        "code": "V3JIDECO"
+      },
+      {
+        "name": "Codigo",
+        "code": "V3JCODIG"
+      },
+      {
+        "name": "Nome",
+        "code": "V3JNOMEU"
+      },
+      {
+        "name": "CodigoPlantaSAP",
+        "code": "V3JCDPLA"
+      },
+      {
+        "name": "IdentificadorCNPJ",
+        "code": "V3JIDECN"
+      }
+    ]
+  },
+  "V4GUSSIT": {
+    "name": "UsuarioPostoFacil",
+    "code": "V4GUSSIT",
+    "columns": [
+      {
+        "name": "IdentificadorUsuarioPostoFacil",
+        "code": "V4GIDUSU"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V4GDTUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V4GDTUAT"
+      },
+      {
+        "name": "IdentificadorAcessoIAM",
+        "code": "V4GIAMID"
+      },
+      {
+        "name": "NomeCompleto",
+        "code": "V4GNOMEC"
+      },
+      {
+        "name": "EnderecoEmail",
+        "code": "V4GEMAIL"
+      },
+      {
+        "name": "NumeroTelefoneTrabalho",
+        "code": "V4GNFONE"
+      },
+      {
+        "name": "IndicadorAtivo",
+        "code": "V4GATIVO"
+      }
+    ]
+  },
+  "V4AVATAT": {
+    "name": "VagaoTanque",
+    "code": "V4AVATAT",
+    "columns": [
+      {
+        "name": "IdentificadorVagaoTanque",
+        "code": "V4AIDEVT"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V4ADTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V4AUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V4ADTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V4AUSUAT"
+      },
+      {
+        "name": "IndicadorAtivo",
+        "code": "V4AATIVO"
+      },
+      {
+        "name": "IdentificadorSerieVagao",
+        "code": "V4AIDSVG"
+      },
+      {
+        "name": "Codigo",
+        "code": "V4ACODIG"
+      },
+      {
+        "name": "CapacidadeNominal",
+        "code": "V4ACAPAC"
+      }
+    ]
+  },
+  "V5XENBMT": {
+    "name": "EncerranteBlocoMedidor",
+    "code": "V5XENBMT",
+    "columns": [
+      {
+        "name": "IdentificadorEncerranteBlocoMedidor",
+        "code": "V5XIDEEB"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V5XDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V5XUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V5XDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V5XUSUAT"
+      },
+      {
+        "name": "IdentificadorBlocoMedidor",
+        "code": "V5XIDEBM"
+      },
+      {
+        "name": "QuantidadeEncerrante",
+        "code": "V5XMEDLE"
+      },
+      {
+        "name": "IndicadorModoObtencaoEncerrante",
+        "code": "V5XINDMO"
+      },
+      {
+        "name": "DataHoraUTCObtencaoEncerrante",
+        "code": "V5XDTUAB"
+      },
+      {
+        "name": "IndicadorResetAutomatico",
+        "code": "V5XINDRA"
+      }
+    ]
+  },
+  "V6DDETAT": {
+    "name": "InterfaceDetalheCargaMassaMovimentacao",
+    "code": "V6DDETAT",
+    "columns": [
+      {
+        "name": "IdentificadorInterfaceDetalheCargaMassaMovimentacao",
+        "code": "V6DIDDET"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V6DDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V6DUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V6DDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V6DUSUAT"
+      },
+      {
+        "name": "IdentificadorCargaMassaMovimentacao",
+        "code": "V6DIDECM"
+      },
+      {
+        "name": "DataMovimentacao",
+        "code": "V6DDTMOV"
+      },
+      {
+        "name": "IdentificadorTransferenciaProduto",
+        "code": "V6DIDETR"
+      },
+      {
+        "name": "IdentificadorRecebimentoFisicoProduto",
+        "code": "V6DIDRFC"
+      },
+      {
+        "name": "IdentificadorAbastecimentoTanque",
+        "code": "V6DIDEAT"
+      },
+      {
+        "name": "IdentificadorRateioGrupoAbastecimento",
+        "code": "V6DIDERG"
+      },
+      {
+        "name": "CodigoCentroCusto",
+        "code": "V6DCODCC"
+      },
+      {
+        "name": "CodigoElementoPEP",
+        "code": "V6DCODEP"
+      },
+      {
+        "name": "CodigoOrdemEstatistica",
+        "code": "V6DCODOE"
+      },
+      {
+        "name": "CodigoPlantaOrigem",
+        "code": "V6DCDPLO"
+      },
+      {
+        "name": "CodigoDepositoOrigem",
+        "code": "V6DCDDEO"
+      },
+      {
+        "name": "CodigoPlantaDestino",
+        "code": "V6DCDPLD"
+      },
+      {
+        "name": "CodigoDepositoDestino",
+        "code": "V6DCDDED"
+      },
+      {
+        "name": "CodigoMaterialSAP",
+        "code": "V6DCDSAP"
+      },
+      {
+        "name": "QuantidadeProdutoMovimentada",
+        "code": "V6DQTDMO"
+      },
+      {
+        "name": "CodigoUnidadeMedida",
+        "code": "V6DUNMED"
+      },
+      {
+        "name": "TipoMovimentacao",
+        "code": "V6DTIPMO"
+      },
+      {
+        "name": "IndicadorSituacaoEnvio",
+        "code": "V6DIDSIT"
+      },
+      {
+        "name": "DataHoraUTCSituacaoEnvio",
+        "code": "V6DDTUSE"
+      },
+      {
+        "name": "CodigoDANFENotaFiscal",
+        "code": "V6DDANFE"
+      },
+      {
+        "name": "DataEmissaoNotaFiscal",
+        "code": "V6DDTEMI"
+      },
+      {
+        "name": "QuantidadeProdutoNotaFiscal",
+        "code": "V6DQTDPR"
+      },
+      {
+        "name": "DataEnvioMensagemMiddleware",
+        "code": "V6DDTENV"
+      },
+      {
+        "name": "IdentificadorUsuarioResponsavelEnvioSAP",
+        "code": "V6DUSENV"
+      },
+      {
+        "name": "ArquivoXMLMensagem",
+        "code": "V6DARXML"
+      }
+    ]
+  },
+  "V6FIENVT": {
+    "name": "InterfaceEnvioAutomacao",
+    "code": "V6FIENVT",
+    "columns": [
+      {
+        "name": "IdentificadorEnvioAutomacao",
+        "code": "V6FIDENV"
+      },
+      {
+        "name": "IdentificadorRegistroHistorico",
+        "code": "V6FIDHIS"
+      },
+      {
+        "name": "TipoCadastroAtualizacao",
+        "code": "V6FTIPCD"
+      },
+      {
+        "name": "IndicadorSituacaoEnvioMensagem",
+        "code": "V6FIDSIT"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V6FDTUCR"
+      },
+      {
+        "name": "ArquivoXMLMensagem",
+        "code": "V6FARXML"
+      }
+    ]
+  },
+  "V6HIABET": {
+    "name": "InterfaceAbastecimentoEquipamento",
+    "code": "V6HIABET",
+    "columns": [
+      {
+        "name": "IdentificadorInterfaceMensagemBaseAutomacao",
+        "code": "V6HIDEBA"
+      },
+      {
+        "name": "IdEquipamento",
+        "code": "V6HIDEEQ"
+      },
+      {
+        "name": "TagEquipamento",
+        "code": "V6HCDTAG"
+      },
+      {
+        "name": "ValorHorimetroHodometro",
+        "code": "V6HMEDLE"
+      }
+    ]
+  },
+  "V6IIABST": {
+    "name": "InterfaceAbastecimentoTanque",
+    "code": "V6IIABST",
+    "columns": [
+      {
+        "name": "IdentificadorInterfaceAbastecimentoTanque",
+        "code": "V6IIDEAB"
+      },
+      {
+        "name": "IdentificadorInterfaceMensagemBaseAutomacao",
+        "code": "V6IIDEBA"
+      },
+      {
+        "name": "IdTanque",
+        "code": "V6IIDETQ"
+      },
+      {
+        "name": "IdBlocoMedidor",
+        "code": "V6IIDEBM"
+      },
+      {
+        "name": "ValorEncerrante",
+        "code": "V6IMEDLE"
+      },
+      {
+        "name": "DataHoraEncerrante",
+        "code": "V6IDTENC"
+      },
+      {
+        "name": "VolumeMovimentado",
+        "code": "V6IQTDMO"
+      },
+      {
+        "name": "UnMedVolMovimentado",
+        "code": "V6IUNMED"
+      },
+      {
+        "name": "Temperatura",
+        "code": "V6ITEMPR"
+      },
+      {
+        "name": "Densidade",
+        "code": "V6IDENSI"
+      }
+    ]
+  },
+  "V6GIBAST": {
+    "name": "InterfaceMensagemBaseAutomacao",
+    "code": "V6GIBAST",
+    "columns": [
+      {
+        "name": "IdentificadorInterfaceMensagemBaseAutomacao",
+        "code": "V6GIDEBA"
+      },
+      {
+        "name": "LegacyName",
+        "code": "V6GLEGNM"
+      },
+      {
+        "name": "IdentificadorMensagem",
+        "code": "V6GMENSA"
+      },
+      {
+        "name": "IdentificadorOperador",
+        "code": "V6GIDOPE"
+      },
+      {
+        "name": "IdentificadorPosto",
+        "code": "V6GIDEPA"
+      },
+      {
+        "name": "TipoEvento",
+        "code": "V6GTPEVE"
+      },
+      {
+        "name": "DataHoraEvento",
+        "code": "V6GDTEVE"
+      },
+      {
+        "name": "MessageIdTibco",
+        "code": "V6GIDTIB"
+      },
+      {
+        "name": "IdentificadorOperacao",
+        "code": "V6GIDOPA"
+      },
+      {
+        "name": "IndicadorProcessamentoPostoFacil",
+        "code": "V6GINDPR"
+      },
+      {
+        "name": "ArquivoXMLMensagem",
+        "code": "V6GARXML"
+      }
+    ]
+  },
+  "V6LIREFT": {
+    "name": "InterfaceRecebimentoFisico",
+    "code": "V6LIREFT",
+    "columns": [
+      {
+        "name": "IdentificadorInterfaceMensagemBaseAutomacao",
+        "code": "V6LIDEBA"
+      },
+      {
+        "name": "NumeroDANFE",
+        "code": "V6LDANFE"
+      },
+      {
+        "name": "VolumeMovimentado",
+        "code": "V6LVOLMO"
+      },
+      {
+        "name": "UnMedVolMovimentado",
+        "code": "V6LUNMED"
+      }
+    ]
+  },
+  "V6MIRFTT": {
+    "name": "InterfaceRecebimentoFisicoTanquePosto",
+    "code": "V6MIRFTT",
+    "columns": [
+      {
+        "name": "IdentificadorRecebimentoFisicoTanquePosto",
+        "code": "V6MIDREF"
+      },
+      {
+        "name": "IdentificadorInterfaceMensagemBaseAutomacao",
+        "code": "V6MIDEBA"
+      },
+      {
+        "name": "IdTanque",
+        "code": "V6MIDETP"
+      },
+      {
+        "name": "VolumeTanque",
+        "code": "V6MQTDTQ"
+      },
+      {
+        "name": "UnMedVolMovimentad",
+        "code": "V6MUNMED"
+      },
+      {
+        "name": "Temperatura",
+        "code": "V6MTEMPR"
+      },
+      {
+        "name": "Densidade",
+        "code": "V6MDENSI"
+      }
+    ]
+  },
+  "V6NITRAT": {
+    "name": "InterfaceTransferencia",
+    "code": "V6NITRAT",
+    "columns": [
+      {
+        "name": "IdentificadorInterfaceMensagemBaseAutomacao",
+        "code": "V6NIDEBA"
+      },
+      {
+        "name": "IdBlocoMedidor",
+        "code": "V6NIDEBM"
+      },
+      {
+        "name": "IdPostoDestino",
+        "code": "V6NIDEPA"
+      },
+      {
+        "name": "ValorEncerrante",
+        "code": "V6NMEDLE"
+      },
+      {
+        "name": "DataHoraEncerrante",
+        "code": "V6NDTENC"
+      },
+      {
+        "name": "VolMovimentado",
+        "code": "V6NQTDTR"
+      },
+      {
+        "name": "UnMedVolMovimentado",
+        "code": "V6NUNMED"
+      },
+      {
+        "name": "Temperatura",
+        "code": "V6NTEMPR"
+      },
+      {
+        "name": "Densidade",
+        "code": "V6NDENSI"
+      }
+    ]
+  },
+  "V6JIENCT": {
+    "name": "InterfaceEncerranteBlocoMedidorTurno",
+    "code": "V6JIENCT",
+    "columns": [
+      {
+        "name": "IdentificadorInterfaceEncerranteBlocoMedidorTurno",
+        "code": "V6JIDIEN"
+      },
+      {
+        "name": "IdentificadorInterfaceMensagemBaseAutomacao",
+        "code": "V6JIDEBA"
+      },
+      {
+        "name": "IdBlocoMedidor",
+        "code": "V6JIDEBM"
+      },
+      {
+        "name": "ValorEncerrante",
+        "code": "V6JMEDLE"
+      },
+      {
+        "name": "DataHoraEncerrante",
+        "code": "V6JDTENC"
+      }
+    ]
+  },
+  "V6KIESTT": {
+    "name": "InterfaceEstoqueTanqueTurno",
+    "code": "V6KIESTT",
+    "columns": [
+      {
+        "name": "IdentificadorInterfaceEstoqueTanqueTurno",
+        "code": "V6KIDETT"
+      },
+      {
+        "name": "IdentificadorInterfaceMensagemBaseAutomacao",
+        "code": "V6KIDEBA"
+      },
+      {
+        "name": "IdTanque",
+        "code": "V6KIDETQ"
+      },
+      {
+        "name": "VolumeTanque",
+        "code": "V6KQTDTQ"
+      },
+      {
+        "name": "UnMedVolMovimentad",
+        "code": "V6KUNMED"
+      },
+      {
+        "name": "Temperatura",
+        "code": "V6KTEMPR"
+      },
+      {
+        "name": "Densidade",
+        "code": "V6KDENSI"
+      }
+    ]
+  },
+  "V5CABEQT": {
+    "name": "AbastecimentoEquipamento",
+    "code": "V5CABEQT",
+    "columns": [
+      {
+        "name": "IdentificadorAbastecimentoEquipamento",
+        "code": "V5CIDEAE"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V5CDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V5CUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V5CDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V5CUSUAT"
+      },
+      {
+        "name": "IdentificadorPostoAbastecimento",
+        "code": "V5CIDEPA"
+      },
+      {
+        "name": "IdentificadorEquipamento",
+        "code": "V5CIDEEQ"
+      },
+      {
+        "name": "IdentificadorCentroCusto",
+        "code": "V5CIDECC"
+      },
+      {
+        "name": "IdentificadorOrdemEstatistica",
+        "code": "V5CIDEOE"
+      },
+      {
+        "name": "IdentificadorElementoPEP",
+        "code": "V5CIDEEP"
+      },
+      {
+        "name": "IdentificadorContrato",
+        "code": "V5CIDECT"
+      },
+      {
+        "name": "IndicadorEquipamentoProprio",
+        "code": "V5CINDEP"
+      },
+      {
+        "name": "IdentificadorTipoGRIEquipamento",
+        "code": "V5CIDETG"
+      },
+      {
+        "name": "IdentificadorTipoFiscalEquipamento",
+        "code": "V5CIDETF"
+      },
+      {
+        "name": "IdentificadorAberturaFechamentoTurnoPosto",
+        "code": "V5CIDETA"
+      },
+      {
+        "name": "DataHoraUTCInicioAbastecimento",
+        "code": "V5CDTUIN"
+      },
+      {
+        "name": "DataHoraUTCFimAbastecimento",
+        "code": "V5CDTUFI"
+      },
+      {
+        "name": "IndicadorTipoLeitura",
+        "code": "V5CINDTL"
+      },
+      {
+        "name": "MedidaLeitura",
+        "code": "V5CMEDLE"
+      },
+      {
+        "name": "IndicadorResetAutomatico",
+        "code": "V5CINDRA"
+      },
+      {
+        "name": "IdentificadorGerencia",
+        "code": "V5CIDEGE"
+      },
+      {
+        "name": "NomeSistemaOrigemDado",
+        "code": "V5CSISTO"
+      },
+      {
+        "name": "IdentificadorTransferenciaProduto",
+        "code": "V5CIDETR"
+      }
+    ]
+  },
+  "V5AABTQT": {
+    "name": "AbastecimentoTanque",
+    "code": "V5AABTQT",
+    "columns": [
+      {
+        "name": "IdentificadorAbastecimentoTanque",
+        "code": "V5AIDEAT"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V5ADTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V5AUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V5ADTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V5AUSUAT"
+      },
+      {
+        "name": "IdentificadorAbastecimentoEquipamento",
+        "code": "V5AIDEAE"
+      },
+      {
+        "name": "IdentificadorCargaMassaMovimentacao",
+        "code": "V5AIDECS"
+      },
+      {
+        "name": "IdentificadorTanqueEquipamento",
+        "code": "V5AIDETE"
+      },
+      {
+        "name": "IdentificadorProduto",
+        "code": "V5AIDEPR"
+      },
+      {
+        "name": "IdentificadorEncerranteBlocoMedidor",
+        "code": "V5AIDEEB"
+      },
+      {
+        "name": "DataHoraUTCAbastecimentoTanque",
+        "code": "V5ADTUAB"
+      },
+      {
+        "name": "CapacidadeNominal",
+        "code": "V5ACAPNO"
+      },
+      {
+        "name": "QuantidadeProdutoConsumoEspecifico",
+        "code": "V5AQTCON"
+      },
+      {
+        "name": "QuantidadeAbastecida",
+        "code": "V5AQTDAB"
+      },
+      {
+        "name": "QuantidadeAbastecida20GrausCelsius",
+        "code": "V5AQTD20"
+      },
+      {
+        "name": "MedidaTemperaturaProduto",
+        "code": "V5ATEMPP"
+      },
+      {
+        "name": "MedidaDensidadeProduto",
+        "code": "V5ADENSP"
+      }
+    ]
+  },
+  "V5VANOMT": {
+    "name": "Anomalia",
+    "code": "V5VANOMT",
+    "columns": [
+      {
+        "name": "IdentificadorAnomalia",
+        "code": "V5VIDEAN"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V5VDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V5VUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V5VDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V5VUSUAT"
+      },
+      {
+        "name": "IdentificadorGrupoAnomalia",
+        "code": "V5VIDEGA"
+      },
+      {
+        "name": "IdentificadorItemAnomalia",
+        "code": "V5VIDEIA"
+      },
+      {
+        "name": "IdentificadorNivelAnomalia",
+        "code": "V5VIDENI"
+      },
+      {
+        "name": "IdentificadorTransferenciaProduto",
+        "code": "V5VIDETR"
+      },
+      {
+        "name": "IdentificadorRecebimentoFiscalProduto",
+        "code": "V5VIDRFS"
+      },
+      {
+        "name": "IdentificadorRecebimentoFisicoProduto",
+        "code": "V5VIDRFC"
+      },
+      {
+        "name": "IdentificadorAbastecimentoEquipamento",
+        "code": "V5VIDEAE"
+      },
+      {
+        "name": "IdentificadorAfericaoBlocoMedidor",
+        "code": "V5VIDEAF"
+      },
+      {
+        "name": "IdentificadorAjusteEncerranteBlocoMedidor",
+        "code": "V5VIDEAJ"
+      },
+      {
+        "name": "IdentificadorAberturaFechamentoTurnoPosto",
+        "code": "V5VIDETA"
+      },
+      {
+        "name": "IdentificadorPostoAbastecimento",
+        "code": "V5VIDEPA"
+      },
+      {
+        "name": "DescricaoCausa",
+        "code": "V5VDESCR"
+      },
+      {
+        "name": "TextoObservacoesGerais",
+        "code": "V5VTXOBS"
+      },
+      {
+        "name": "DataHoraOcorrencia",
+        "code": "V5VDTOCO"
+      },
+      {
+        "name": "IdentificadorImagemOcorrencia",
+        "code": "V5VIDIMG"
+      },
+      {
+        "name": "IdentificadorUsuarioResponsavelRegistro",
+        "code": "V5VUSURP"
+      },
+      {
+        "name": "IndicadorConhecimentoGestor",
+        "code": "V5VINDCG"
+      },
+      {
+        "name": "IdentificadorUsuarioGestorResponsavel",
+        "code": "V5VIDUGR"
+      },
+      {
+        "name": "NomeSistemaOrigemDado",
+        "code": "V5VSISTO"
+      }
+    ]
+  },
+  "V5NAFERT": {
+    "name": "AfericaoBlocoMedidor",
+    "code": "V5NAFERT",
+    "columns": [
+      {
+        "name": "IdentificadorAfericaoBlocoMedidor",
+        "code": "V5NIDEAF"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V5NDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V5NUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V5NDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V5NUSUAT"
+      },
+      {
+        "name": "IdentificadorProduto",
+        "code": "V5NIDEPR"
+      },
+      {
+        "name": "IdentificadorAberturaFechamentoTurnoPosto",
+        "code": "V5NIDETA"
+      },
+      {
+        "name": "IdentificadorUsuarioResponsavelAfericao",
+        "code": "V5NUSUAF"
+      },
+      {
+        "name": "IdentificadorEncerranteBlocoMedidor",
+        "code": "V5NIDEEB"
+      },
+      {
+        "name": "IndicePercentualErroAfericao",
+        "code": "V5NINDER"
+      },
+      {
+        "name": "IndicePercentualCalibracao",
+        "code": "V5NINDCA"
+      },
+      {
+        "name": "NomeOrgaoCertificador",
+        "code": "V5NDECOC"
+      },
+      {
+        "name": "NumeroCertificado",
+        "code": "V5NNUMCE"
+      },
+      {
+        "name": "DataValidadeCertificado",
+        "code": "V5NDTHVC"
+      },
+      {
+        "name": "NomeSistemaOrigemDado",
+        "code": "V5NSISTO"
+      },
+      {
+        "name": "IndicadorRetornoProduto",
+        "code": "V5NINDRP"
+      },
+      {
+        "name": "QuantidadeProdutoAfericao",
+        "code": "V5NQTDPA"
+      }
+    ]
+  },
+  "V5PAJENT": {
+    "name": "AjusteEncerranteBlocoMedidor",
+    "code": "V5PAJENT",
+    "columns": [
+      {
+        "name": "IdentificadorAjusteEncerranteBlocoMedidor",
+        "code": "V5PIDEAJ"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V5PDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V5PUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V5PDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V5PUSUAT"
+      },
+      {
+        "name": "IdentificadorProduto",
+        "code": "V5PIDEPR"
+      },
+      {
+        "name": "IdentificadorAberturaFechamentoTurnoPosto",
+        "code": "V5PIDETA"
+      },
+      {
+        "name": "IdentificadorEncerranteBlocoMedidorAnterior",
+        "code": "V5PIDEBN"
+      },
+      {
+        "name": "IdentificadorEncerranteBlocoMedidorAtual",
+        "code": "V5PIDEBT"
+      },
+      {
+        "name": "NomeSistemaOrigemDado",
+        "code": "V5PSISTO"
+      }
+    ]
+  },
+  "V6CCAMMT": {
+    "name": "InterfaceCargaMassaMovimentacao",
+    "code": "V6CCAMMT",
+    "columns": [
+      {
+        "name": "IdentificadorCargaMassaMovimentacao",
+        "code": "V6CIDECM"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V6CDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V6CUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V6CDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V6CUSUAT"
+      },
+      {
+        "name": "Descricao",
+        "code": "V6CDESCR"
+      },
+      {
+        "name": "DataReferencia",
+        "code": "V6CDTREF"
+      }
+    ]
+  },
+  "V5ETRANT": {
+    "name": "TransferenciaProduto",
+    "code": "V5ETRANT",
+    "columns": [
+      {
+        "name": "IdentificadorTransferenciaProduto",
+        "code": "V5EIDETR"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V5EDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V5EUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V5EDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V5EUSUAT"
+      },
+      {
+        "name": "IdentificadorProduto",
+        "code": "V5EIDEPR"
+      },
+      {
+        "name": "IdentificadorAberturaFechamentoTurnoPostoOrigem",
+        "code": "V5EIDETO"
+      },
+      {
+        "name": "IdentificadorUsuarioResponsavelPostoOrigem",
+        "code": "V5EUSUPO"
+      },
+      {
+        "name": "DataHoraUTCInicioRetiradaOrigem",
+        "code": "V5EDTUIO"
+      },
+      {
+        "name": "DataHoraUTCFimRetiradaOrigem",
+        "code": "V5EDTUFO"
+      },
+      {
+        "name": "IdentificadorEncerranteBlocoMedidorOrigem",
+        "code": "V5EIDEEB"
+      },
+      {
+        "name": "NomeSistemaOrigemDadoPostoOrigem",
+        "code": "V5ESISTO"
+      },
+      {
+        "name": "IndicadorSituacao",
+        "code": "V5EINDST"
+      },
+      {
+        "name": "IdentificadorProdutoPostoDestino",
+        "code": "V5EIDEPP"
+      },
+      {
+        "name": "CodigoPlantaDepositoSAPDestino",
+        "code": "V5ECDPLA"
+      },
+      {
+        "name": "CodigoDepositoSAPDestino",
+        "code": "V5ECDDEP"
+      },
+      {
+        "name": "IdentificadorAberturaFechamentoTurnoPostoDestino",
+        "code": "V5EIDETD"
+      },
+      {
+        "name": "IdentificadorUsuarioResponsavelPostoDestino",
+        "code": "V5EUSUPD"
+      },
+      {
+        "name": "DataHoraUTCInicioRecebimentoDestino",
+        "code": "V5EDTUID"
+      },
+      {
+        "name": "DataHoraUTCFimRecebimentoDestino",
+        "code": "V5EDTUFD"
+      },
+      {
+        "name": "NumeroIdentificacaoLacres",
+        "code": "V5ENUMLC"
+      },
+      {
+        "name": "QuantidadeLacres",
+        "code": "V5EQTDLC"
+      },
+      {
+        "name": "CodigoHexadecimalCorLacres",
+        "code": "V5ECORLC"
+      },
+      {
+        "name": "QuantidadeTransferida",
+        "code": "V5EQTDTR"
+      },
+      {
+        "name": "QuantidadeTransferida20GrausCelsius",
+        "code": "V5EQTD20"
+      },
+      {
+        "name": "MedidaTemperaturaProduto",
+        "code": "V5ETEMPR"
+      },
+      {
+        "name": "MedidaDensidadeProduto",
+        "code": "V5EDENSI"
+      },
+      {
+        "name": "NomeSistemaOrigemDadoPostoDestino",
+        "code": "V5ESISTD"
+      },
+      {
+        "name": "IndicadorUtilizacaoSkidPostoDestino",
+        "code": "V5EINDRS"
+      },
+      {
+        "name": "IdentificadorCargaMassaMovimentacao",
+        "code": "V5EIDECS"
+      },
+      {
+        "name": "IdentificadorEmpresaTransportadora",
+        "code": "V5EIDEEM"
+      },
+      {
+        "name": "IdentificadorCaminhaoTanque",
+        "code": "V5EIDECT"
+      },
+      {
+        "name": "IdentificadorCavaloMecanico",
+        "code": "V5EIDECM"
+      },
+      {
+        "name": "IdentificadorMotoristaCavaloCaminhaoTanque",
+        "code": "V5EIDEMC"
+      },
+      {
+        "name": "IndicadorConcordanciaMotorista",
+        "code": "V5EINDCM"
+      }
+    ]
+  },
+  "V6ALOGAT": {
+    "name": "InterfaceRetornoRecebido",
+    "code": "V6ALOGAT",
+    "columns": [
+      {
+        "name": "IdentificadorInterfaceRetornoRecebido",
+        "code": "V6AIDERC"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V6ADTUCR"
+      },
+      {
+        "name": "IdentificadorMensagem",
+        "code": "V6AIDMSG"
+      },
+      {
+        "name": "NomeSistemaOrigemResposta",
+        "code": "V6ATARGE"
+      },
+      {
+        "name": "TipoOperacao",
+        "code": "V6ATIPOP"
+      },
+      {
+        "name": "IndicadorSituacaoEnvioMensagem",
+        "code": "V6ASTATU"
+      },
+      {
+        "name": "CodigoExcecao",
+        "code": "V6ACODEX"
+      },
+      {
+        "name": "TextoMensagemResposta",
+        "code": "V6ATXMEX"
+      },
+      {
+        "name": "TipoExcecao",
+        "code": "V6ATIPEX"
+      },
+      {
+        "name": "IdentificadorTransacaoSAP",
+        "code": "V6ATRANS"
+      }
+    ]
+  },
+  "V6BLOGST": {
+    "name": "LogSistema",
+    "code": "V6BLOGST",
+    "columns": [
+      {
+        "name": "IdentificadorLogSistema",
+        "code": "V6BIDELS"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V6BDTUCR"
+      },
+      {
+        "name": "TipoEvento",
+        "code": "V6BEVENT"
+      },
+      {
+        "name": "TextoMensagem",
+        "code": "V6BTXMSG"
+      },
+      {
+        "name": "NomeProjetoVisualStudio",
+        "code": "V6BPROJE"
+      }
+    ]
+  },
+  "V5FREFCT": {
+    "name": "RecebimentoFisicoProduto",
+    "code": "V5FREFCT",
+    "columns": [
+      {
+        "name": "IdentificadorRecebimentoFisicoProduto",
+        "code": "V5FIDRFC"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V5FDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V5FUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V5FDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V5FUSUAT"
+      },
+      {
+        "name": "IdentificadorProdutoPosto",
+        "code": "V5FIDEPP"
+      },
+      {
+        "name": "CodigoPlanta",
+        "code": "V5FCDPLA"
+      },
+      {
+        "name": "CodigoDeposito",
+        "code": "V5FCDDEP"
+      },
+      {
+        "name": "DataHoraUTCInicioRecebimentoFisico",
+        "code": "V5FDTUIR"
+      },
+      {
+        "name": "IdentificadorUsuarioResponsavelInicioRecebimento",
+        "code": "V5FUSUIR"
+      },
+      {
+        "name": "IdentificadorAberturaFechamentoTurnoInicioRecebimento",
+        "code": "V5FIDETI"
+      },
+      {
+        "name": "DataHoraUTCFimRecebimentoFisico",
+        "code": "V5FDTUFR"
+      },
+      {
+        "name": "IdentificadorUsuarioResponsavelTerminoRecebimento",
+        "code": "V5FUSUTR"
+      },
+      {
+        "name": "IdentificadorAberturaFechamentoTurnoTerminoRecebimento",
+        "code": "V5FIDETT"
+      },
+      {
+        "name": "IndicadorUtilizacaoSkid",
+        "code": "V5FINDRS"
+      },
+      {
+        "name": "IndicadorConcordanciaMotorista",
+        "code": "V5FINDCM"
+      },
+      {
+        "name": "IndicadorTipoRecebimento",
+        "code": "V5FTIPOR"
+      },
+      {
+        "name": "IdentificadorVagaoTanque",
+        "code": "V5FIDEVT"
+      },
+      {
+        "name": "IdentificadorCaminhaoTanque",
+        "code": "V5FIDECT"
+      },
+      {
+        "name": "IdentificadorCavaloMecanico",
+        "code": "V5FIDECM"
+      },
+      {
+        "name": "IndicadorSituacao",
+        "code": "V5FINDST"
+      },
+      {
+        "name": "NomeSistemaOrigemDado",
+        "code": "V5FSISTO"
+      },
+      {
+        "name": "IdentificadorCargaMassaMovimentacao",
+        "code": "V5FIDECS"
+      },
+      {
+        "name": "IdentificadorGrupoRecebimentoFisicoFiscal",
+        "code": "V5FIDGRE"
+      }
+    ]
+  },
+  "V5HREFST": {
+    "name": "RecebimentoFiscalProduto",
+    "code": "V5HREFST",
+    "columns": [
+      {
+        "name": "IdentificadorRecebimentoFiscalProduto",
+        "code": "V5HIDRFS"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V5HDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V5HUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V5HDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V5HUSUAT"
+      },
+      {
+        "name": "IdentificadorPostoAbastecimento",
+        "code": "V5HIDEPA"
+      },
+      {
+        "name": "IdentificadorAberturaFechamentoTurnoPosto",
+        "code": "V5HIDETA"
+      },
+      {
+        "name": "IdentificadorProdutoNotaFiscal",
+        "code": "V5HIDEPR"
+      },
+      {
+        "name": "IdentificadorEmpresaFornecedora",
+        "code": "V5HIDEEF"
+      },
+      {
+        "name": "IdentificadorEmpresaTransportadora",
+        "code": "V5HIDEET"
+      },
+      {
+        "name": "IdentificadorUsuarioResponsavelRecebimento",
+        "code": "V5HUSURE"
+      },
+      {
+        "name": "DataHoraUTCInicioRecebimentoFiscal",
+        "code": "V5HDTUIR"
+      },
+      {
+        "name": "DataHoraUTCFimRecebimentoFiscal",
+        "code": "V5HDTUFR"
+      },
+      {
+        "name": "IndicadorTipoRecebimento",
+        "code": "V5HTIPOR"
+      },
+      {
+        "name": "IdentificadorVagaoTanque",
+        "code": "V5HIDEVT"
+      },
+      {
+        "name": "IdentificadorCaminhaoTanque",
+        "code": "V5HIDECT"
+      },
+      {
+        "name": "IdentificadorCavaloMecanico",
+        "code": "V5HIDECM"
+      },
+      {
+        "name": "IdentificadorMotoristaCavaloCaminhaoTanque",
+        "code": "V5HIDEMC"
+      },
+      {
+        "name": "CodigoBarrasNotaFiscal",
+        "code": "V5HCODBR"
+      },
+      {
+        "name": "CodigoDANFENotaFiscal",
+        "code": "V5HDANFE"
+      },
+      {
+        "name": "DataEmissaoNotaFiscal",
+        "code": "V5HDTEMI"
+      },
+      {
+        "name": "IdentificadorGrupoRecebimentoFisicoFiscal",
+        "code": "V5HIDGRE"
+      },
+      {
+        "name": "NumeroIdentificacaoLacres",
+        "code": "V5HNUMLC"
+      },
+      {
+        "name": "QuantidadeLacres",
+        "code": "V5HQTDLC"
+      },
+      {
+        "name": "CodigoHexadecimalCorLacres",
+        "code": "V5HCORLC"
+      },
+      {
+        "name": "QuantidadeProdutoNotaFiscal",
+        "code": "V5HQTDPR"
+      },
+      {
+        "name": "PrecoUnitarioProdutoNotaFiscal",
+        "code": "V5HPREUN"
+      },
+      {
+        "name": "PesoBrutoNotaFiscal",
+        "code": "V5HPESOB"
+      },
+      {
+        "name": "PesoLiquidoNotaFiscal",
+        "code": "V5HPESOL"
+      },
+      {
+        "name": "PesoBrutoVale",
+        "code": "V5HPBVAL"
+      },
+      {
+        "name": "NomeSistemaOrigemDado",
+        "code": "V5HSISTO"
+      },
+      {
+        "name": "DataHoraUTCChegadaCaminhaoPortaria",
+        "code": "V5HDTUCC"
+      },
+      {
+        "name": "DataHoraUTCEntradaCaminhaoPortaria",
+        "code": "V5HDTUEC"
+      },
+      {
+        "name": "DataHoraUTCSaidaCaminhaoPortaria",
+        "code": "V5HDTUSC"
+      }
+    ]
+  },
+  "V5GDETRT": {
+    "name": "DetalheRecebimentoProduto",
+    "code": "V5GDETRT",
+    "columns": [
+      {
+        "name": "IdentificadorDetalheRecebimentoProduto",
+        "code": "V5GIDEDR"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V5GDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V5GUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V5GDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V5GUSUAT"
+      },
+      {
+        "name": "IdentificadorRecebimentoFisicoProduto",
+        "code": "V5GIDRFC"
+      },
+      {
+        "name": "IdentificadorCompartimentoCaminhaoTanque",
+        "code": "V5GIDECC"
+      },
+      {
+        "name": "QuantidadeRecebida",
+        "code": "V5GQTDRE"
+      },
+      {
+        "name": "QuantidadeRecebida20GrausCelsius",
+        "code": "V5GQTD20"
+      },
+      {
+        "name": "PesoLiquidoRecebido",
+        "code": "V5GPESOL"
+      },
+      {
+        "name": "DataHoraUTCComplemento",
+        "code": "V5GDTUCL"
+      },
+      {
+        "name": "QuantidadeComplementoProduto",
+        "code": "V5GQTDCL"
+      },
+      {
+        "name": "NomeSistemaOrigemDado",
+        "code": "V5GSISTO"
+      },
+      {
+        "name": "IdentificadorAspectoVisual",
+        "code": "V5GIDEAV"
+      },
+      {
+        "name": "IdentificadorEncerranteBlocoMedidor",
+        "code": "V5GIDEEB"
+      },
+      {
+        "name": "IndicadorPresencaAgua",
+        "code": "V5GINDPA"
+      },
+      {
+        "name": "MedidaAlturaEspacoVazio",
+        "code": "V5GALTUR"
+      },
+      {
+        "name": "DEN_BOLETIM",
+        "code": "V5GBOLET"
+      },
+      {
+        "name": "DEN_AMOSTRA",
+        "code": "V5GAMOST"
+      },
+      {
+        "name": "DEN_AMOSTRA_20C",
+        "code": "V5GAMO20"
+      },
+      {
+        "name": "TMP_AMOSTRA",
+        "code": "V5GTMPAM"
+      },
+      {
+        "name": "TMP_MASSA",
+        "code": "V5GTMPMA"
+      },
+      {
+        "name": "DEN_20C_RVTVagaoTanque",
+        "code": "V5GDERVT"
+      },
+      {
+        "name": "TMP_RVTVagaoTanque",
+        "code": "V5GTMRVT"
+      },
+      {
+        "name": "VOL_20C_RVTVagaoTanque",
+        "code": "V5GQTRVT"
+      }
+    ]
+  },
+  "V5KRETPT": {
+    "name": "ApuracaoRecebimentoProdutoTanquePosto",
+    "code": "V5KRETPT",
+    "columns": [
+      {
+        "name": "IdentificadorApuracaoRecebimentoProdutoTanque",
+        "code": "V5KIDEAP"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V5KDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V5KUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V5KDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V5KUSUAT"
+      },
+      {
+        "name": "IdentificadorRecebimentoFisicoProduto",
+        "code": "V5KIDRFC"
+      },
+      {
+        "name": "IdentificadorTanquePostoAbastecimento",
+        "code": "V5KIDETP"
+      },
+      {
+        "name": "MedidaAlturaInicial",
+        "code": "V5KALTUI"
+      },
+      {
+        "name": "MedidaAlturaFinal",
+        "code": "V5KALTUF"
+      },
+      {
+        "name": "QuantidadeProdutoInicial",
+        "code": "V5KQTDPI"
+      },
+      {
+        "name": "QuantidadeProdutoFinal",
+        "code": "V5KQTDPF"
+      },
+      {
+        "name": "QuantidadeProdutoInicial20GrausCelsius",
+        "code": "V5KQT20I"
+      },
+      {
+        "name": "QuantidadeProdutoFinal20GrausCelsius",
+        "code": "V5KQT20F"
+      },
+      {
+        "name": "MedidaTemperaturaSuperficieInicial",
+        "code": "V5KTEMSI"
+      },
+      {
+        "name": "MedidaTemperaturaSuperficieFinal",
+        "code": "V5KTEMSF"
+      },
+      {
+        "name": "MedidaTemperaturaMeioInicial",
+        "code": "V5KTEMMI"
+      },
+      {
+        "name": "MedidaTemperaturaMeioFinal",
+        "code": "V5KTEMMF"
+      },
+      {
+        "name": "MedidaTemperaturaFundoInicial",
+        "code": "V5KTEMFI"
+      },
+      {
+        "name": "MedidaTemperaturaFundoFinal",
+        "code": "V5KTEMFF"
+      },
+      {
+        "name": "MedidaTemperaturaMediaInicial",
+        "code": "V5KTMEDI"
+      },
+      {
+        "name": "MedidaTemperaturaMediaFinal",
+        "code": "V5KTMEDF"
+      },
+      {
+        "name": "MedidaDensidadeInicial",
+        "code": "V5KDENSI"
+      },
+      {
+        "name": "MedidaDensidadeFinal",
+        "code": "V5KDENSF"
+      }
+    ]
+  },
+  "V5BAFTPT": {
+    "name": "AberturaFechamentoTurnoPostoAbastecimento",
+    "code": "V5BAFTPT",
+    "columns": [
+      {
+        "name": "IdentificadorAberturaFechamentoTurnoPosto",
+        "code": "V5BIDETA"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V5BDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V5BUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V5BDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V5BUSUAT"
+      },
+      {
+        "name": "IdentificadorPostoAbastecimento",
+        "code": "V5BIDEPA"
+      },
+      {
+        "name": "IdentificadorTurno",
+        "code": "V5BIDETU"
+      },
+      {
+        "name": "DataHoraUTCInicioTurno",
+        "code": "V5BDTUIN"
+      },
+      {
+        "name": "DataHoraUTCFimTurno",
+        "code": "V5BDTUFI"
+      },
+      {
+        "name": "IndicadorSituacaoAberturaFechamentoTurno",
+        "code": "V5BINDSI"
+      },
+      {
+        "name": "IdentificadorUsuarioResponsavelAberturaTurno",
+        "code": "V5BUSRAT"
+      },
+      {
+        "name": "NomeSistemaOrigemDado",
+        "code": "V5BSISTO"
+      },
+      {
+        "name": "IdentificadorUsuarioResponsavelFechamentoTurno",
+        "code": "V5BUSRFT"
+      },
+      {
+        "name": "IdentificadorUsuarioResponsavelValidacaoDadosTurno",
+        "code": "V5BUSRVT"
+      },
+      {
+        "name": "DataHoraUTCValidacaoDadosTurno",
+        "code": "V5BDTUVL"
+      }
+    ]
+  },
+  "V5OENCBT": {
+    "name": "EncerranteBlocoMedidorTurno",
+    "code": "V5OENCBT",
+    "columns": [
+      {
+        "name": "IdentificadorEncerranteBlocoMedidorTurno",
+        "code": "V5OIDENB"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V5ODTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V5OUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V5ODTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V5OUSUAT"
+      },
+      {
+        "name": "IdentificadorAberturaFechamentoTurnoPosto",
+        "code": "V5OIDETA"
+      },
+      {
+        "name": "IdentificadorProduto",
+        "code": "V5OIDEPR"
+      },
+      {
+        "name": "IdentificadorEncerranteBlocoMedidorInicial",
+        "code": "V5OIDEEI"
+      },
+      {
+        "name": "IdentificadorEncerranteBlocoMedidorFinal",
+        "code": "V5OIDEEF"
+      }
+    ]
+  },
+  "V5MESTQT": {
+    "name": "EstoqueTanqueTurno",
+    "code": "V5MESTQT",
+    "columns": [
+      {
+        "name": "IdentificadorEstoqueTanqueTurno",
+        "code": "V5MIDETT"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V5MDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V5MUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V5MDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V5MUSUAT"
+      },
+      {
+        "name": "IdentificadorTanquePostoAbastecimento",
+        "code": "V5MIDETP"
+      },
+      {
+        "name": "IdentificadorAberturaFechamentoTurnoPosto",
+        "code": "V5MIDETA"
+      },
+      {
+        "name": "IdentificadorProduto",
+        "code": "V5MIDEPR"
+      },
+      {
+        "name": "MedidaAlturaInicial",
+        "code": "V5MALTUI"
+      },
+      {
+        "name": "MedidaAlturaFinal",
+        "code": "V5MALTUF"
+      },
+      {
+        "name": "QuantidadeProdutoInicial",
+        "code": "V5MQTDPI"
+      },
+      {
+        "name": "QuantidadeProdutoFinal",
+        "code": "V5MQTDPF"
+      },
+      {
+        "name": "QuantidadeProdutoInicial20GrausCelsius",
+        "code": "V5MQT20I"
+      },
+      {
+        "name": "QuantidadeProdutoFinal20GrausCelsius",
+        "code": "V5MQT20F"
+      },
+      {
+        "name": "MedidaTemperaturaInicial",
+        "code": "V5MTEMPI"
+      },
+      {
+        "name": "MedidaTemperaturaFinal",
+        "code": "V5MTEMPF"
+      },
+      {
+        "name": "MedidaDensidadeInicial",
+        "code": "V5MDENSI"
+      },
+      {
+        "name": "MedidaDensidadeFinal",
+        "code": "V5MDENSF"
+      }
+    ]
+  },
+  "V4ZGRIAT": {
+    "name": "GrupoItemAnomalia",
+    "code": "V4ZGRIAT",
+    "columns": [
+      {
+        "name": "IdentificadorGrupoItemAnomalia",
+        "code": "V4ZIDEGI"
+      },
+      {
+        "name": "IdentificadorGrupoAnomalia",
+        "code": "V4ZIDEGA"
+      },
+      {
+        "name": "IdentificadorItemAnomalia",
+        "code": "V4ZIDEIA"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V4ZDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V4ZUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V4ZDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V4ZUSUAT"
+      },
+      {
+        "name": "NumeroSequencialOrdemExibicao",
+        "code": "V4ZNUORD"
+      }
+    ]
+  },
+  "V3PTUGRT": {
+    "name": "TurnoGrupo",
+    "code": "V3PTUGRT",
+    "columns": [
+      {
+        "name": "IdentificadorGrupoTurnoComplexo",
+        "code": "V3PGRUTC"
+      },
+      {
+        "name": "IdentificadorTurno",
+        "code": "V3PIDETU"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V3PDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V3PUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V3PDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V3PUSUAT"
+      },
+      {
+        "name": "NumeroOrdemTurno",
+        "code": "V3PNUMOT"
+      }
+    ]
+  },
+  "V4XITNAT": {
+    "name": "ItemNivelAnomalia",
+    "code": "V4XITNAT",
+    "columns": [
+      {
+        "name": "IdentificadorItemNivelAnomalia",
+        "code": "V4XIDENA"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V4XDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V4XUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V4XDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V4XUSUAT"
+      },
+      {
+        "name": "IdentificadorItemAnomalia",
+        "code": "V4XIDEIA"
+      },
+      {
+        "name": "IdentificadorNivel",
+        "code": "V4XIDENI"
+      },
+      {
+        "name": "NumeroSequencialOrdemExibicao",
+        "code": "V4XNUORD"
+      }
+    ]
+  },
+  "V5JRAGAT": {
+    "name": "RateioGrupoAbastecimento",
+    "code": "V5JRAGAT",
+    "columns": [
+      {
+        "name": "IdentificadorRateioGrupoAbastecimento",
+        "code": "V5JIDERG"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V5JDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V5JUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V5JDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V5JUSUAT"
+      },
+      {
+        "name": "IdentificadorCargaMassaMovimentacao",
+        "code": "V5JIDECM"
+      },
+      {
+        "name": "IdentificadorCentroCusto",
+        "code": "V5JIDECC"
+      },
+      {
+        "name": "IndicePercentualRateio",
+        "code": "V5JINDRT"
+      },
+      {
+        "name": "QuantidadeAbastecidaRateio",
+        "code": "V5JQTDAR"
+      }
+    ]
+  },
+  "V5YDEVOT": {
+    "name": "DevolucaoProduto",
+    "code": "V5YDEVOT",
+    "columns": [
+      {
+        "name": "IdentificadorDevolucaoProduto",
+        "code": "V5YIDDEV"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V5YDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V5YUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V5YDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V5YUSUAT"
+      },
+      {
+        "name": "IdentificadorProdutoPosto",
+        "code": "V5YIDEPP"
+      },
+      {
+        "name": "IdentificadorAberturaFechamentoTurnoPosto",
+        "code": "V5YIDETA"
+      },
+      {
+        "name": "IdentificadorEquipamento",
+        "code": "V5YIDEEQ"
+      },
+      {
+        "name": "QuantidadeProdutoDevolvida",
+        "code": "V5YQTDEV"
+      },
+      {
+        "name": "DataHoraUTCDevolucao",
+        "code": "V5YDTDEV"
+      },
+      {
+        "name": "IdentificadorUsuarioResponsavelDevolucao",
+        "code": "V5YUSDEV"
+      }
+    ]
+  },
+  "V4HTAEPT": {
+    "name": "TanqueEquipamentoProduto",
+    "code": "V4HTAEPT",
+    "columns": [
+      {
+        "name": "IdentificadorTanqueEquipamento",
+        "code": "V4HIDETE"
+      },
+      {
+        "name": "IdentificadorProduto",
+        "code": "V4HIDEPR"
+      },
+      {
+        "name": "QuantidadeProdutoConsumoEspecifico",
+        "code": "V4HQTCON"
+      }
+    ]
+  },
+  "RDS_NWAPLANT": {
+    "name": "PlantaSAP",
+    "code": "RDS_NWAPLANT",
+    "columns": [
+      {
+        "name": "CodigoPlanta",
+        "code": "NWACDPLA"
+      },
+      {
+        "name": "CodigoEmpresaFilial",
+        "code": "NWACDEMF"
+      },
+      {
+        "name": "CodigoFilial",
+        "code": "NWACDFIL"
+      },
+      {
+        "name": "CodigoEmpresa",
+        "code": "NWACDEMP"
+      },
+      {
+        "name": "Descricao",
+        "code": "NWADSPLA"
+      }
+    ]
+  },
+  "V5IGRECT": {
+    "name": "GrupoRecebimentoFisicoFiscal",
+    "code": "V5IGRECT",
+    "columns": [
+      {
+        "name": "IdentificadorGrupoRecebimentoFisicoFiscal",
+        "code": "V5IIDGRE"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V5IDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V5IUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V5IDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V5IUSUAT"
+      },
+      {
+        "name": "IdentificadorDiretoria",
+        "code": "V5IIDEDI"
+      },
+      {
+        "name": "IdentificadorProduto",
+        "code": "V5IIDEPR"
+      },
+      {
+        "name": "CodigoGrupoRecebimento",
+        "code": "V5ICODIG"
+      },
+      {
+        "name": "QuantidadeProdutoTotalNotasFiscais",
+        "code": "V5IQTDPR"
+      },
+      {
+        "name": "QuantidadeProdutoTotalRecebida",
+        "code": "V5IQTDRE"
+      },
+      {
+        "name": "QuantidadeProdutoDivergencia",
+        "code": "V5IQTDIV"
+      },
+      {
+        "name": "IndicadorSituacao",
+        "code": "V5IINDST"
+      },
+      {
+        "name": "DataHoraUTCFechamento",
+        "code": "V5IDTUFE"
+      },
+      {
+        "name": "IdentificadorUsuarioResponsavelFechamento",
+        "code": "V5IUSUFE"
+      }
+    ]
+  },
+  "RDS_NWBDEPOT": {
+    "name": "DepositoSAP",
+    "code": "RDS_NWBDEPOT",
+    "columns": [
+      {
+        "name": "CodigoPlanta",
+        "code": "NWBCDPLA"
+      },
+      {
+        "name": "CodigoDeposito",
+        "code": "NWBCDDEP"
+      },
+      {
+        "name": "Descricao",
+        "code": "NWBDSDEP"
+      }
+    ]
+  },
+  "V3ZTETRT": {
+    "name": "TipoEquipamentoTraducao",
+    "code": "V3ZTETRT",
+    "columns": [
+      {
+        "name": "IdentificadorTipoEquipamentoAbastecimento",
+        "code": "V3ZIDTPE"
+      },
+      {
+        "name": "CodigoIdioma",
+        "code": "V3ZIDIOM"
+      },
+      {
+        "name": "Nome",
+        "code": "V3ZNOMEN"
+      }
+    ]
+  },
+  "V3UNATRT": {
+    "name": "TipoFiscalEquipamentoTraducao",
+    "code": "V3UNATRT",
+    "columns": [
+      {
+        "name": "IdentificadorTipoFiscalEquipamento",
+        "code": "V3UIDETF"
+      },
+      {
+        "name": "CodigoIdioma",
+        "code": "V3UIDIOM"
+      },
+      {
+        "name": "Nome",
+        "code": "V3UNOMEN"
+      }
+    ]
+  },
+  "V31TETRT": {
+    "name": "TipoGRIEquipamentoTraducao",
+    "code": "V31TETRT",
+    "columns": [
+      {
+        "name": "IdentificadorTipoGRIEquipamento",
+        "code": "V31IDETG"
+      },
+      {
+        "name": "CodigoIdioma",
+        "code": "V31IDIOM"
+      },
+      {
+        "name": "Nome",
+        "code": "V31NOMEN"
+      },
+      {
+        "name": "Descricao",
+        "code": "V31DESCR"
+      }
+    ]
+  },
+  "V7BSOEQT": {
+    "name": "SolicitacaoAtualizacaoEquipamentoPostoFacil",
+    "code": "V7BSOEQT",
+    "columns": [
+      {
+        "name": "IdentificadorSolicitacaoAtualizacaoEquipamentoPostoFacil",
+        "code": "V7BIDSOE"
+      },
+      {
+        "name": "IdentificadorSolicitacaoAtualizacao",
+        "code": "V7BIDSOL"
+      },
+      {
+        "name": "IdentificadorEquipamento",
+        "code": "V7BIDEEQ"
+      },
+      {
+        "name": "IndicadorSituacaoEquipamento",
+        "code": "V7BINDST"
+      },
+      {
+        "name": "IdentificadorTipoEquipamento",
+        "code": "V7BIDTPE"
+      },
+      {
+        "name": "IdentificadorTipoFiscalEquipamento",
+        "code": "V7BIDETF"
+      },
+      {
+        "name": "IdentificadorTipoGRIEquipamento",
+        "code": "V7BIDETG"
+      },
+      {
+        "name": "IdentificadorModelo",
+        "code": "V7BIDEMO"
+      },
+      {
+        "name": "IndicadorRateioAbastecimentoCentroCusto",
+        "code": "V7BINDRA"
+      },
+      {
+        "name": "IdentificadorCentroCusto",
+        "code": "V7BIDECC"
+      },
+      {
+        "name": "IdentificadorElementoPEP",
+        "code": "V7BIDEEP"
+      },
+      {
+        "name": "IdentificadorOrdemEstatistica",
+        "code": "V7BIDEOE"
+      },
+      {
+        "name": "IndicadorEquipamentoProprio",
+        "code": "V7BINDEP"
+      },
+      {
+        "name": "IdentificadorContrato",
+        "code": "V7BIDECT"
+      },
+      {
+        "name": "IdentificadorComplexo",
+        "code": "V7BIDECO"
+      },
+      {
+        "name": "CodigoTag",
+        "code": "V7BCDTAG"
+      },
+      {
+        "name": "CodigoPlaca",
+        "code": "V7BCODPL"
+      },
+      {
+        "name": "CodigoEquipamento",
+        "code": "V7BCODIG"
+      },
+      {
+        "name": "CodigoRenavam",
+        "code": "V7BCODRN"
+      },
+      {
+        "name": "AnoFabricacao",
+        "code": "V7BANOFA"
+      },
+      {
+        "name": "IndicadorTipoLeitura",
+        "code": "V7BINDTL"
+      },
+      {
+        "name": "QuantidadeDigitosMaximaLeitura",
+        "code": "V7BQTDML"
+      },
+      {
+        "name": "IdentificadorImagemDUT",
+        "code": "V7BIDIMG"
+      }
+    ]
+  },
+  "V7ASOLAT": {
+    "name": "SolicitacaoAtualizacao",
+    "code": "V7ASOLAT",
+    "columns": [
+      {
+        "name": "IdentificadorSolicitacaoAtualizacao",
+        "code": "V7AIDSOL"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V7ADTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V7AUSUCR"
+      },
+      {
+        "name": "IndicadorTipoAtualizacaoSolicitada",
+        "code": "V7AINDTS"
+      },
+      {
+        "name": "IndicadorSituacao",
+        "code": "V7AINDST"
+      },
+      {
+        "name": "DataHoraUTCAvaliacao",
+        "code": "V7ADTUAV"
+      },
+      {
+        "name": "IdentificadorUsuarioAvaliador",
+        "code": "V7AUSUUA"
+      }
+    ]
+  },
+  "V4JCLTRT": {
+    "name": "ClasseProdutoTraducao",
+    "code": "V4JCLTRT",
+    "columns": [
+      {
+        "name": "IdentificadorClasse",
+        "code": "V4JIDECL"
+      },
+      {
+        "name": "CodigoIdioma",
+        "code": "V4JIDIOM"
+      },
+      {
+        "name": "Nome",
+        "code": "V4JNOMEN"
+      }
+    ]
+  },
+  "V4LTITRT": {
+    "name": "TipoProdutoTraducao",
+    "code": "V4LTITRT",
+    "columns": [
+      {
+        "name": "IdentificadorTipoProduto",
+        "code": "V4LIDETP"
+      },
+      {
+        "name": "CodigoIdioma",
+        "code": "V4LIDIOM"
+      },
+      {
+        "name": "Nome",
+        "code": "V4LNOMEN"
+      }
+    ]
+  },
+  "V4QPRTRT": {
+    "name": "ProdutoPostoFacilTraducao",
+    "code": "V4QPRTRT",
+    "columns": [
+      {
+        "name": "IdentificadorProduto",
+        "code": "V4QIDEPR"
+      },
+      {
+        "name": "CodigoIdioma",
+        "code": "V4QIDIOM"
+      },
+      {
+        "name": "DescricaoCurta",
+        "code": "V4QDESCC"
+      },
+      {
+        "name": "DescricaoLonga",
+        "code": "V4QDESCL"
+      },
+      {
+        "name": "NomeApelido",
+        "code": "V4QAPELI"
+      }
+    ]
+  },
+  "V46PELUT": {
+    "name": "PerfilLocalidadeUsuario",
+    "code": "V46PELUT",
+    "columns": [
+      {
+        "name": "IdentificadorUsuarioPostoFacil",
+        "code": "V46IDUSU"
+      },
+      {
+        "name": "IdentificadorPerfilLocalidade",
+        "code": "V46IDEPL"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V46DTUCR"
+      }
+    ]
+  },
+  "V45PELOT": {
+    "name": "PerfilLocalidade",
+    "code": "V45PELOT",
+    "columns": [
+      {
+        "name": "IdentificadorPerfilLocalidade",
+        "code": "V45IDEPL"
+      },
+      {
+        "name": "IdentificadorPostoAbastecimento",
+        "code": "V45IDEPA"
+      },
+      {
+        "name": "IdentificadorPerfil",
+        "code": "V45IDEPE"
+      },
+      {
+        "name": "Codigo",
+        "code": "V45CODIG"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V45DTUCR"
+      }
+    ]
+  },
+  "V40PERFT": {
+    "name": "Perfil",
+    "code": "V40PERFT",
+    "columns": [
+      {
+        "name": "IdentificadorPerfil",
+        "code": "V40IDEPE"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V40DTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V40USUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V40DTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V40IDUSU"
+      },
+      {
+        "name": "Codigo",
+        "code": "V40CODIG"
+      }
+    ]
+  },
+  "V44TRPET": {
+    "name": "TransacaoPerfil",
+    "code": "V44TRPET",
+    "columns": [
+      {
+        "name": "IdentificadorTransacao",
+        "code": "V44IDTRA"
+      },
+      {
+        "name": "IdentificadorPerfil",
+        "code": "V44IDEPE"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V44DTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V44USUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V44DTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V44USUAT"
+      }
+    ]
+  },
+  "V42TRANT": {
+    "name": "Transacao",
+    "code": "V42TRANT",
+    "columns": [
+      {
+        "name": "IdentificadorTransacao",
+        "code": "V42IDTRA"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V42DTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V42USUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V42DTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V42USUAT"
+      },
+      {
+        "name": "IdentificadorModulo",
+        "code": "V42IDMOD"
+      },
+      {
+        "name": "Codigotransacao",
+        "code": "V42CODIG"
+      },
+      {
+        "name": "IndicadorNivelLocalidadeAutorizacao",
+        "code": "V42INDNA"
+      }
+    ]
+  },
+  "V43TRTRT": {
+    "name": "TransacaoTraducao",
+    "code": "V43TRTRT",
+    "columns": [
+      {
+        "name": "IdentificadorTransacao",
+        "code": "V43IDTRA"
+      },
+      {
+        "name": "CodigoIdioma",
+        "code": "V43IDIOM"
+      },
+      {
+        "name": "Nome",
+        "code": "V43NOMET"
+      }
+    ]
+  },
+  "V4BSVAGT": {
+    "name": "SerieVagaoTanque",
+    "code": "V4BSVAGT",
+    "columns": [
+      {
+        "name": "IdentificadorSerieVagao",
+        "code": "V4BIDSVG"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V4BDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V4BUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V4BDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V4BUSUAT"
+      },
+      {
+        "name": "IndicadorAtivo",
+        "code": "V4BATIVO"
+      },
+      {
+        "name": "CodigoSerieVagao",
+        "code": "V4BCDSVG"
+      },
+      {
+        "name": "CodigoTipoVagao",
+        "code": "V4BCODTV"
+      }
+    ]
+  },
+  "V4CSVTRT": {
+    "name": "SerieVagaoTanqueTraducao",
+    "code": "V4CSVTRT",
+    "columns": [
+      {
+        "name": "IdentificadorSerieVagao",
+        "code": "V4CIDSVG"
+      },
+      {
+        "name": "CodigoIdioma",
+        "code": "V4CIDIOM"
+      },
+      {
+        "name": "Descricao",
+        "code": "V4CDESCR"
+      }
+    ]
+  },
+  "V7DSOPRT": {
+    "name": "SolicitacaoAtualizacaoTanqueEquipamentoProduto",
+    "code": "V7DSOPRT",
+    "columns": [
+      {
+        "name": "IdentificadorSolicitacaoAtualizacaoTanqueEquipamentoProduto",
+        "code": "V7DIDSOP"
+      },
+      {
+        "name": "IdentificadorSolicitacaoAtualizacaoTanqueEquipamento",
+        "code": "V7DIDSOT"
+      },
+      {
+        "name": "IdentificadorProduto",
+        "code": "V7DIDEPR"
+      },
+      {
+        "name": "QuantidadeProdutoConsumoEspecifico",
+        "code": "V7DQTCON"
+      }
+    ]
+  },
+  "V7CSOTQT": {
+    "name": "SolicitacaoAtualizacaoTanqueEquipamento",
+    "code": "V7CSOTQT",
+    "columns": [
+      {
+        "name": "IdentificadorSolicitacaoAtualizacaoTanqueEquipamento",
+        "code": "V7CIDSOT"
+      },
+      {
+        "name": "IdentificadorSolicitacaoAtualizacaoEquipamentoPostoFacil",
+        "code": "V7CIDSOE"
+      },
+      {
+        "name": "IdentificadorTanqueEquipamento",
+        "code": "V7CIDETE"
+      },
+      {
+        "name": "CodigoTanqueEquipamento",
+        "code": "V7CCODIG"
+      },
+      {
+        "name": "CapacidadeNominal",
+        "code": "V7CCAPNO"
+      },
+      {
+        "name": "IndicadorAtivo",
+        "code": "V7CATIVO"
+      }
+    ]
+  },
+  "V47ANTRT": {
+    "name": "ItemAnomaliaTraducao",
+    "code": "V47ANTRT",
+    "columns": [
+      {
+        "name": "IdentificadorItemAnomalia",
+        "code": "V47IDENT"
+      },
+      {
+        "name": "CodigoIdioma",
+        "code": "V47IDIOM"
+      },
+      {
+        "name": "Descricao",
+        "code": "V47DESCR"
+      }
+    ]
+  },
+  "V6EIRETT": {
+    "name": "InterfaceRetornoEnviado",
+    "code": "V6EIRETT",
+    "columns": [
+      {
+        "name": "IdentificadorInterfaceRetornoEnviado",
+        "code": "V6EIDERE"
+      },
+      {
+        "name": "IdentificadorInterfaceMensagemBaseAutomacao",
+        "code": "V6EIDEBA"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V6EDTUCR"
+      },
+      {
+        "name": "CodStatus",
+        "code": "V6EINDST"
+      },
+      {
+        "name": "MessagemIdTibco",
+        "code": "V6EIDITB"
+      },
+      {
+        "name": "LegacyName",
+        "code": "V6ETARGE"
+      },
+      {
+        "name": "IdentificadorMensagem",
+        "code": "V6EIDORG"
+      },
+      {
+        "name": "ExceptionCode",
+        "code": "V6ECODER"
+      },
+      {
+        "name": "ExceptionMessage",
+        "code": "V6EMSGER"
+      },
+      {
+        "name": "ExceptionType",
+        "code": "V6ETIPER"
+      }
+    ]
+  },
+  "V5ZFECHT": {
+    "name": "FechamentoProdutoTurno",
+    "code": "V5ZFECHT",
+    "columns": [
+      {
+        "name": "IdentificadorFechamentoTurno",
+        "code": "V5ZIDEAP"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V5ZDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V5ZUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V5ZDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V5ZUSUAT"
+      },
+      {
+        "name": "IdentificadorAberturaFechamentoTurnoPosto",
+        "code": "V5ZIDETA"
+      },
+      {
+        "name": "IdentificadorProduto",
+        "code": "V5ZIDEPR"
+      },
+      {
+        "name": "QuantidadeProdutoEstoqueInicial",
+        "code": "V5ZQTDIN"
+      },
+      {
+        "name": "QuantidadeProdutoEstoqueFinal",
+        "code": "V5ZQTDFI"
+      },
+      {
+        "name": "QuantidadeProdutoRecebido",
+        "code": "V5ZQTDRE"
+      },
+      {
+        "name": "QuantidadeProdutoFaltante",
+        "code": "V5ZQTDFA"
+      },
+      {
+        "name": "QuantidadeProdutoAfericoesSemRetorno",
+        "code": "V5ZQTDAS"
+      },
+      {
+        "name": "QuantidadeProdutoAfericoesComRetorno",
+        "code": "V5ZQTDAC"
+      },
+      {
+        "name": "QuantidadeProdutoAbastecida",
+        "code": "V5ZQTDAB"
+      },
+      {
+        "name": "QuantidadeProdutoDevolvida",
+        "code": "V5ZQTDDV"
+      },
+      {
+        "name": "QuantidadeTransferenciaEntrada",
+        "code": "V5ZQTDTE"
+      },
+      {
+        "name": "QuantidadeTransferenciaSaida",
+        "code": "V5ZQTDTS"
+      },
+      {
+        "name": "QuantidadeProdutoDivergencia",
+        "code": "V5ZQTDDG"
+      },
+      {
+        "name": "IndicePercentualDivergencia",
+        "code": "V5ZINPDG"
+      },
+      {
+        "name": "IndicadorSituacaoDivergencia",
+        "code": "V5ZINDST"
+      }
+    ]
+  },
+  "V32GRTRT": {
+    "name": "GrupoAnomaliaTraducao",
+    "code": "V32GRTRT",
+    "columns": [
+      {
+        "name": "IdentificadorGrupoAnomalia",
+        "code": "V32IDEGA"
+      },
+      {
+        "name": "CodigoIdioma",
+        "code": "V32IDIOM"
+      },
+      {
+        "name": "Nome",
+        "code": "V32NOMEN"
+      }
+    ]
+  },
+  "V33NATRT": {
+    "name": "NivelAnomaliaTraducao",
+    "code": "V33NATRT",
+    "columns": [
+      {
+        "name": "IdentificadorNivel",
+        "code": "V33IDENI"
+      },
+      {
+        "name": "CodigoIdioma",
+        "code": "V33IDIOM"
+      },
+      {
+        "name": "Nome",
+        "code": "V33NOMEN"
+      }
+    ]
+  },
+  "V34DEPOT": {
+    "name": "ProdutoPostoAbastecimento",
+    "code": "V34DEPOT",
+    "columns": [
+      {
+        "name": "IdentificadorProdutoPosto",
+        "code": "V34IDEPP"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V34DTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V34USUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V34DTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V34USUAT"
+      },
+      {
+        "name": "IndicadorAtivo",
+        "code": "V34ATIVO"
+      },
+      {
+        "name": "IdentificadorPostoAbastecimento",
+        "code": "V34IDEPA"
+      },
+      {
+        "name": "IdentificadorProduto",
+        "code": "V34IDEPR"
+      },
+      {
+        "name": "CodigoPlantaSAP",
+        "code": "V34CDPLA"
+      },
+      {
+        "name": "CodigoDepositoSAP",
+        "code": "V34CDDEP"
+      },
+      {
+        "name": "IndicadorRecebimentoSkid",
+        "code": "V34INDRS"
+      }
+    ]
+  },
+  "RDS_NWCMATET": {
+    "name": "Material",
+    "code": "RDS_NWCMATET",
+    "columns": [
+      {
+        "name": "CodigoMaterial",
+        "code": "NWCCDMAT"
+      },
+      {
+        "name": "CodigoTipoMaterial",
+        "code": "NWFCDTPM"
+      },
+      {
+        "name": "CodigoUnidadeMedida",
+        "code": "NWECDUNI"
+      },
+      {
+        "name": "IndicadorSituacao",
+        "code": "NWCINSIT"
+      },
+      {
+        "name": "DataUltimaModificacao",
+        "code": "NWCDTALT"
+      }
+    ]
+  },
+  "V7FSOABT": {
+    "name": "SolicitacaoAtualizacaoAbastecimentoEquipamento",
+    "code": "V7FSOABT",
+    "columns": [
+      {
+        "name": "IdentificadorSolicitacaoAtualizacaoAbastecimentoEquipamento",
+        "code": "V7FIDSOA"
+      },
+      {
+        "name": "IdentificadorSolicitacaoAtualizacao",
+        "code": "V7FIDSOL"
+      },
+      {
+        "name": "IdentificadorAbastecimentoEquipamento",
+        "code": "V7FIDEAE"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V7FDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V7FUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V7FDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V7FUSUAT"
+      },
+      {
+        "name": "IdentificadorPostoAbastecimento",
+        "code": "V7FIDEPA"
+      },
+      {
+        "name": "IdentificadorEquipamento",
+        "code": "V7FIDEEQ"
+      },
+      {
+        "name": "IdentificadorCentroCusto",
+        "code": "V7FIDECC"
+      },
+      {
+        "name": "IdentificadorOrdemEstatistica",
+        "code": "V7FIDEOE"
+      },
+      {
+        "name": "IdentificadorElementoPEP",
+        "code": "V7FIDEEP"
+      },
+      {
+        "name": "IdentificadorContrato",
+        "code": "V7FIDECT"
+      },
+      {
+        "name": "IndicadorEquipamentoProprio",
+        "code": "V7FINDEP"
+      },
+      {
+        "name": "IdentificadorTipoGRIEquipamento",
+        "code": "V7FIDETG"
+      },
+      {
+        "name": "IdentificadorTipoFiscalEquipamento",
+        "code": "V7FIDETF"
+      },
+      {
+        "name": "IdentificadorAberturaFechamentoTurnoPosto",
+        "code": "V7FIDETA"
+      },
+      {
+        "name": "DataHoraUTCInicioAbastecimento",
+        "code": "V7FDTUIN"
+      },
+      {
+        "name": "DataHoraUTCFimAbastecimento",
+        "code": "V7FDTUFI"
+      },
+      {
+        "name": "IndicadorTipoLeitura",
+        "code": "V7FINDTL"
+      },
+      {
+        "name": "MedidaLeitura",
+        "code": "V7FMEDLE"
+      },
+      {
+        "name": "IndicadorResetAutomatico",
+        "code": "V7FINDRA"
+      },
+      {
+        "name": "IdentificadorGerencia",
+        "code": "V7FIDEGE"
+      },
+      {
+        "name": "NomeSistemaOrigemDado",
+        "code": "V7FSISTO"
+      },
+      {
+        "name": "IdentificadorTransferenciaProduto",
+        "code": "V7FIDETR"
+      }
+    ]
+  },
+  "V7GSOATT": {
+    "name": "SolicitacaoAtualizacaoAbastecimentoTanque",
+    "code": "V7GSOATT",
+    "columns": [
+      {
+        "name": "IdentificadorSolicitacaoAtualizacaoAbastecimentoTanque",
+        "code": "V7GIDSOT"
+      },
+      {
+        "name": "IdentificadorSolicitacaoAtualizacaoAbastecimentoEquipamento",
+        "code": "V7GIDSOA"
+      },
+      {
+        "name": "IdentificadorAbastecimentoTanque",
+        "code": "V7GIDEAT"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V7GDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V7GUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V7GDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V7GUSUAT"
+      },
+      {
+        "name": "IdentificadorAbastecimentoEquipamento",
+        "code": "V7GIDEAE"
+      },
+      {
+        "name": "IdentificadorCargaMassaMovimentacao",
+        "code": "V7GIDECS"
+      },
+      {
+        "name": "IdentificadorTanqueEquipamento",
+        "code": "V7GIDETE"
+      },
+      {
+        "name": "IdentificadorProduto",
+        "code": "V7GIDEPR"
+      },
+      {
+        "name": "IdentificadorEncerranteBlocoMedidor",
+        "code": "V7GIDEEB"
+      },
+      {
+        "name": "DataHoraUTCAbastecimentoTanque",
+        "code": "V7GDTUAB"
+      },
+      {
+        "name": "CapacidadeNominal",
+        "code": "V7GCAPNO"
+      },
+      {
+        "name": "QuantidadeProdutoConsumoEspecifico",
+        "code": "V7GQTCON"
+      },
+      {
+        "name": "QuantidadeAbastecida",
+        "code": "V7GQTDAB"
+      },
+      {
+        "name": "QuantidadeAbastecida20GrausCelsius",
+        "code": "V7GQTD20"
+      },
+      {
+        "name": "MedidaTemperaturaProduto",
+        "code": "V7GTEMPP"
+      },
+      {
+        "name": "MedidaDensidadeProduto",
+        "code": "V7GDENSP"
+      }
+    ]
+  },
+  "V7HSORFT": {
+    "name": "SolicitacaoAtualizacaoRecebimentoFisicoProduto",
+    "code": "V7HSORFT",
+    "columns": [
+      {
+        "name": "IdentificadorSolicitacaoAtualizacaoRecebimentoFisicoProduto",
+        "code": "V7HIDSOA"
+      },
+      {
+        "name": "IdentificadorSolicitacaoAtualizacao",
+        "code": "V7HIDSOL"
+      },
+      {
+        "name": "IdentificadorRecebimentoFisicoProduto",
+        "code": "V7HIDRFC"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V7HDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V7HUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V7HDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V7HUSUAT"
+      },
+      {
+        "name": "IdentificadorProdutoPosto",
+        "code": "V7HIDEPP"
+      },
+      {
+        "name": "CodigoPlanta",
+        "code": "V7HCDPLA"
+      },
+      {
+        "name": "CodigoDeposito",
+        "code": "V7HCDDEP"
+      },
+      {
+        "name": "DataHoraUTCInicioRecebimentoFisico",
+        "code": "V7HDTUIR"
+      },
+      {
+        "name": "IdentificadorUsuarioResponsavelInicioRecebimento",
+        "code": "V7HUSUIR"
+      },
+      {
+        "name": "IdentificadorAberturaFechamentoTurnoInicioRecebimento",
+        "code": "V7HIDETI"
+      },
+      {
+        "name": "DataHoraUTCFimRecebimentoFisico",
+        "code": "V7HDTUFR"
+      },
+      {
+        "name": "IdentificadorUsuarioResponsavelTerminoRecebimento",
+        "code": "V7HUSUTR"
+      },
+      {
+        "name": "IdentificadorAberturaFechamentoTurnoTerminoRecebimento",
+        "code": "V7HIDETT"
+      },
+      {
+        "name": "IndicadorUtilizacaoSkid",
+        "code": "V7HINDRS"
+      },
+      {
+        "name": "IndicadorConcordanciaMotorista",
+        "code": "V7HINDCM"
+      },
+      {
+        "name": "IndicadorTipoRecebimento",
+        "code": "V7HTIPOR"
+      },
+      {
+        "name": "IdentificadorVagaoTanque",
+        "code": "V7HIDEVT"
+      },
+      {
+        "name": "IdentificadorCaminhaoTanque",
+        "code": "V7HIDECT"
+      },
+      {
+        "name": "IdentificadorCavaloMecanico",
+        "code": "V7HIDECM"
+      },
+      {
+        "name": "IndicadorSituacao",
+        "code": "V7HINDST"
+      },
+      {
+        "name": "NomeSistemaOrigemDado",
+        "code": "V7HSISTO"
+      },
+      {
+        "name": "IdentificadorCargaMassaMovimentacao",
+        "code": "V7HIDECS"
+      },
+      {
+        "name": "IdentificadorGrupoRecebimentoFisicoFiscal",
+        "code": "V7HIDGRE"
+      }
+    ]
+  },
+  "V7ISODRT": {
+    "name": "SolicitacaoAtualizacaoDetalheRecebimentoProduto",
+    "code": "V7ISODRT",
+    "columns": [
+      {
+        "name": "IdentificadorSolicitacaoAtualizacaoDetalheRecebimentoProduto",
+        "code": "V7IIDSOT"
+      },
+      {
+        "name": "IdentificadorSolicitacaoAtualizacaoRecebimentoFisicoProduto",
+        "code": "V7IIDSOA"
+      },
+      {
+        "name": "IdentificadorDetalheRecebimentoProduto",
+        "code": "V7IIDEDR"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V7IDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V7IUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V7IDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V7IUSUAT"
+      },
+      {
+        "name": "IdentificadorRecebimentoFisicoProduto",
+        "code": "V7IIDRFC"
+      },
+      {
+        "name": "IdentificadorCompartimentoCaminhaoTanque",
+        "code": "V7IIDECC"
+      },
+      {
+        "name": "QuantidadeRecebida",
+        "code": "V7IQTDRE"
+      },
+      {
+        "name": "QuantidadeRecebida20GrausCelsius",
+        "code": "V7IQTD20"
+      },
+      {
+        "name": "PesoLiquidoRecebido",
+        "code": "V7IPESOL"
+      },
+      {
+        "name": "DataHoraUTCComplemento",
+        "code": "V7IDTUCL"
+      },
+      {
+        "name": "QuantidadeComplementoProduto",
+        "code": "V7IQTDCL"
+      },
+      {
+        "name": "NomeSistemaOrigemDado",
+        "code": "V7ISISTO"
+      },
+      {
+        "name": "IdentificadorAspectoVisual",
+        "code": "V7IIDEAV"
+      },
+      {
+        "name": "IdentificadorEncerranteBlocoMedidor",
+        "code": "V7IIDEEB"
+      },
+      {
+        "name": "IndicadorPresencaAgua",
+        "code": "V7IINDPA"
+      },
+      {
+        "name": "MedidaAlturaEspacoVazio",
+        "code": "V7IALTUR"
+      },
+      {
+        "name": "DEN_BOLETIM",
+        "code": "V7IBOLET"
+      },
+      {
+        "name": "DEN_AMOSTRA",
+        "code": "V7IAMOST"
+      },
+      {
+        "name": "DEN_AMOSTRA_20C",
+        "code": "V7IAMO20"
+      },
+      {
+        "name": "TMP_AMOSTRA",
+        "code": "V7ITMPAM"
+      },
+      {
+        "name": "TMP_MASSA",
+        "code": "V7ITMPMA"
+      },
+      {
+        "name": "DEN_20C_RVTVagaoTanque",
+        "code": "V7IDERVT"
+      },
+      {
+        "name": "TMP_RVTVagaoTanque",
+        "code": "V7ITMRVT"
+      },
+      {
+        "name": "VOL_20C_RVTVagaoTanque",
+        "code": "V7IQTRVT"
+      }
+    ]
+  },
+  "V7JSOAPT": {
+    "name": "SolicitacaoAtualizacaoApuracaoRecebimentoProdutoTanquePosto",
+    "code": "V7JSOAPT",
+    "columns": [
+      {
+        "name": "IdentificadorSolicitacaoAtualizacaoApuracaoRecebimento",
+        "code": "V7JIDSOT"
+      },
+      {
+        "name": "IdentificadorSolicitacaoAtualizacaoRecebimentoFisicoProduto",
+        "code": "V7JIDSOA"
+      },
+      {
+        "name": "IdentificadorApuracaoRecebimentoProdutoTanque",
+        "code": "V7JIDEAP"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V7JDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V7JUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V7JDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V7JUSUAT"
+      },
+      {
+        "name": "IdentificadorRecebimentoFisicoProduto",
+        "code": "V7JIDRFC"
+      },
+      {
+        "name": "IdentificadorTanquePostoAbastecimento",
+        "code": "V7JIDETP"
+      },
+      {
+        "name": "MedidaAlturaInicial",
+        "code": "V7JALTUI"
+      },
+      {
+        "name": "MedidaAlturaFinal",
+        "code": "V7JALTUF"
+      },
+      {
+        "name": "QuantidadeProdutoInicial",
+        "code": "V7JQTDPI"
+      },
+      {
+        "name": "QuantidadeProdutoFinal",
+        "code": "V7JQTDPF"
+      },
+      {
+        "name": "QuantidadeProdutoInicial20GrausCelsius",
+        "code": "V7JQT20I"
+      },
+      {
+        "name": "QuantidadeProdutoFinal20GrausCelsius",
+        "code": "V7JQT20F"
+      },
+      {
+        "name": "MedidaTemperaturaSuperficieInicial",
+        "code": "V7JTEMSI"
+      },
+      {
+        "name": "MedidaTemperaturaSuperficieFinal",
+        "code": "V7JTEMSF"
+      },
+      {
+        "name": "MedidaTemperaturaMeioInicial",
+        "code": "V7JTEMMI"
+      },
+      {
+        "name": "MedidaTemperaturaMeioFinal",
+        "code": "V7JTEMMF"
+      },
+      {
+        "name": "MedidaTemperaturaFundoInicial",
+        "code": "V7JTEMFI"
+      },
+      {
+        "name": "MedidaTemperaturaFundoFinal",
+        "code": "V7JTEMFF"
+      },
+      {
+        "name": "MedidaTemperaturaMediaInicial",
+        "code": "V7JTMEDI"
+      },
+      {
+        "name": "MedidaTemperaturaMediaFinal",
+        "code": "V7JTMEDF"
+      },
+      {
+        "name": "MedidaDensidadeInicial",
+        "code": "V7JDENSI"
+      },
+      {
+        "name": "MedidaDensidadeFinal",
+        "code": "V7JDENSF"
+      }
+    ]
+  },
+  "V7KSOAFT": {
+    "name": "SolicitacaoAtualizacaoAberturaFechamentoTurnoPostoAbastecimento",
+    "code": "V7KSOAFT",
+    "columns": [
+      {
+        "name": "IdentificadorSolicitacaoAtualizacaoAberturaFechamentoTurno",
+        "code": "V7KIDSOA"
+      },
+      {
+        "name": "IdentificadorSolicitacaoAtualizacao",
+        "code": "V7KIDSOL"
+      },
+      {
+        "name": "IdentificadorAberturaFechamentoTurnoPosto",
+        "code": "V7KIDETA"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V7KDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V7KUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V7KDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V7KUSUAT"
+      },
+      {
+        "name": "IdentificadorPostoAbastecimento",
+        "code": "V7KIDEPA"
+      },
+      {
+        "name": "IdentificadorTurno",
+        "code": "V7KIDETU"
+      },
+      {
+        "name": "DataHoraUTCInicioTurno",
+        "code": "V7KDTUIN"
+      },
+      {
+        "name": "DataHoraUTCFimTurno",
+        "code": "V7KDTUFI"
+      },
+      {
+        "name": "IndicadorSituacaoAberturaFechamentoTurno",
+        "code": "V7KINDSI"
+      },
+      {
+        "name": "IdentificadorUsuarioResponsavelAberturaTurno",
+        "code": "V7KUSRAT"
+      },
+      {
+        "name": "NomeSistemaOrigemDado",
+        "code": "V7KSISTO"
+      },
+      {
+        "name": "IdentificadorUsuarioResponsavelFechamentoTurno",
+        "code": "V7KUSRFT"
+      },
+      {
+        "name": "IdentificadorUsuarioResponsavelValidacaoDadosTurno",
+        "code": "V7KUSRVT"
+      },
+      {
+        "name": "DataHoraUTCValidacaoDadosTurno",
+        "code": "V7KDTUVL"
+      }
+    ]
+  },
+  "V7LSOETT": {
+    "name": "SolicitacaoAtualizacaoEstoqueTanqueTurno",
+    "code": "V7LSOETT",
+    "columns": [
+      {
+        "name": "IdentificadorSolicitacaoAtualizacaoEstoqueTanqueTurno",
+        "code": "V7LIDSOT"
+      },
+      {
+        "name": "IdentificadorSolicitacaoAtualizacaoAberturaFechamentoTurno",
+        "code": "V7LIDSOA"
+      },
+      {
+        "name": "IdentificadorEstoqueTanqueTurno",
+        "code": "V7LIDETT"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V7LDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V7LUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V7LDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V7LUSUAT"
+      },
+      {
+        "name": "IdentificadorTanquePostoAbastecimento",
+        "code": "V7LIDETP"
+      },
+      {
+        "name": "IdentificadorAberturaFechamentoTurnoPosto",
+        "code": "V7LIDETA"
+      },
+      {
+        "name": "IdentificadorProduto",
+        "code": "V7LIDEPR"
+      },
+      {
+        "name": "MedidaAlturaInicial",
+        "code": "V7LALTUI"
+      },
+      {
+        "name": "MedidaAlturaFinal",
+        "code": "V7LALTUF"
+      },
+      {
+        "name": "QuantidadeProdutoInicial",
+        "code": "V7LQTDPI"
+      },
+      {
+        "name": "QuantidadeProdutoFinal",
+        "code": "V7LQTDPF"
+      },
+      {
+        "name": "QuantidadeProdutoInicial20GrausCelsius",
+        "code": "V7LQT20I"
+      },
+      {
+        "name": "QuantidadeProdutoFinal20GrausCelsius",
+        "code": "V7LQT20F"
+      },
+      {
+        "name": "MedidaTemperaturaInicial",
+        "code": "V7LTEMPI"
+      },
+      {
+        "name": "MedidaTemperaturaFinal",
+        "code": "V7LTEMPF"
+      },
+      {
+        "name": "MedidaDensidadeInicial",
+        "code": "V7LDENSI"
+      },
+      {
+        "name": "MedidaDensidadeFinal",
+        "code": "V7LDENSF"
+      }
+    ]
+  },
+  "V7MSOEBT": {
+    "name": "SolicitacaoAtualizacaoEncerranteBlocoMedidorTurno",
+    "code": "V7MSOEBT",
+    "columns": [
+      {
+        "name": "IdentificadorSolicitacaoAtualizacaoEncerranteBlocoMedidorTurno",
+        "code": "V7MIDSOT"
+      },
+      {
+        "name": "IdentificadorSolicitacaoAtualizacaoAberturaFechamentoTurno",
+        "code": "V7MIDSOA"
+      },
+      {
+        "name": "IdentificadorEncerranteBlocoMedidorTurno",
+        "code": "V7MIDENB"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V7MDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V7MUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V7MDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V7MUSUAT"
+      },
+      {
+        "name": "IdentificadorAberturaFechamentoTurnoPosto",
+        "code": "V7MIDETA"
+      },
+      {
+        "name": "IdentificadorProduto",
+        "code": "V7MIDEPR"
+      },
+      {
+        "name": "IdentificadorEncerranteBlocoMedidorInicial",
+        "code": "V7MIDEEI"
+      },
+      {
+        "name": "IdentificadorEncerranteBlocoMedidorFinal",
+        "code": "V7MIDEEF"
+      }
+    ]
+  },
+  "V7NSOPAT": {
+    "name": "SolicitacaoAtualizacaoPostoAbastecimento",
+    "code": "V7NSOPAT",
+    "columns": [
+      {
+        "name": "IdentificadorSolicitacaoAtualizacaoPostoAbastecimento",
+        "code": "V7NIDSOA"
+      },
+      {
+        "name": "IdentificadorSolicitacaoAtualizacao",
+        "code": "V7NIDSOL"
+      },
+      {
+        "name": "IdentificadorPostoAbastecimento",
+        "code": "V7NIDEPA"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V7NDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V7NUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V7NDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V7NUSUAT"
+      },
+      {
+        "name": "IndicadorAtivo",
+        "code": "V7NATIVO"
+      },
+      {
+        "name": "IdentificadorUnidadeOperacional",
+        "code": "V7NIDEUO"
+      },
+      {
+        "name": "Sigla",
+        "code": "V7NSIGLA"
+      },
+      {
+        "name": "Nome",
+        "code": "V7NNOMEP"
+      },
+      {
+        "name": "IdentificadorGrupoTurnoComplexo",
+        "code": "V7NGRUTC"
+      },
+      {
+        "name": "IndicadorPostoFixoMovel",
+        "code": "V7NTIPAB"
+      },
+      {
+        "name": "IndicadorTipoVeiculoAbastecimento",
+        "code": "V7NINDVA"
+      },
+      {
+        "name": "IndicadorPostoRessuprimento",
+        "code": "V7NINDRS"
+      }
+    ]
+  },
+  "V7OSOPPT": {
+    "name": "SolicitacaoAtualizacaoProdutoPostoAbastecimento",
+    "code": "V7OSOPPT",
+    "columns": [
+      {
+        "name": "IdentificadorSolicitacaoAtualizacaoProdutoPostoAbastecimento",
+        "code": "V7OIDSOT"
+      },
+      {
+        "name": "IdentificadorSolicitacaoAtualizacaoPostoAbastecimento",
+        "code": "V7OIDSOA"
+      },
+      {
+        "name": "IdentificadorProdutoPosto",
+        "code": "V7OIDEPP"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V7ODTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V7OUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V7ODTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V7OUSUAT"
+      },
+      {
+        "name": "IndicadorAtivo",
+        "code": "V7OATIVO"
+      },
+      {
+        "name": "IdentificadorPostoAbastecimento",
+        "code": "V7OIDEPA"
+      },
+      {
+        "name": "IdentificadorProduto",
+        "code": "V7OIDEPR"
+      },
+      {
+        "name": "CodigoPlantaSAP",
+        "code": "V7OCDPLA"
+      },
+      {
+        "name": "CodigoDepositoSAP",
+        "code": "V7OCDDEP"
+      },
+      {
+        "name": "IndicadorRecebimentoSkid",
+        "code": "V7OINDRS"
+      }
+    ]
+  },
+  "V7PSOTPT": {
+    "name": "SolicitacaoAtualizacaoTanquePostoAbastecimento",
+    "code": "V7PSOTPT",
+    "columns": [
+      {
+        "name": "IdentificadorSolicitacaoAtualizacaoTanquePostoAbastecimento",
+        "code": "V7PIDSOP"
+      },
+      {
+        "name": "IdentificadorSolicitacaoAtualizacaoProdutoPostoAbastecimento",
+        "code": "V7PIDSOT"
+      },
+      {
+        "name": "IdentificadorTanquePostoAbastecimento",
+        "code": "V7PIDETP"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V7PDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V7PUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V7PDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V7PUSUAT"
+      },
+      {
+        "name": "IndicadorAtivo",
+        "code": "V7PATIVO"
+      },
+      {
+        "name": "IdentificadorProdutoPosto",
+        "code": "V7PIDEDP"
+      },
+      {
+        "name": "Codigo",
+        "code": "V7PCODIG"
+      },
+      {
+        "name": "Nome",
+        "code": "V7PNOMET"
+      },
+      {
+        "name": "IndicadorTipoTanque",
+        "code": "V7PINDTT"
+      },
+      {
+        "name": "CapacidadeNominal",
+        "code": "V7PCAPNO"
+      },
+      {
+        "name": "CapacidadeCritica",
+        "code": "V7PCAPCR"
+      },
+      {
+        "name": "CapacidadeLastro",
+        "code": "V7PCAPLA"
+      },
+      {
+        "name": "MedidaComprimentoInterno",
+        "code": "V7PMEDCP"
+      },
+      {
+        "name": "MedidaLarguraInterna",
+        "code": "V7PMEDLA"
+      },
+      {
+        "name": "MedidaAlturaInterna",
+        "code": "V7PMEDAL"
+      },
+      {
+        "name": "MedidaDiametroInterno",
+        "code": "V7PMEDDI"
+      },
+      {
+        "name": "MedidaRaioEsferica",
+        "code": "V7PMEDRA"
+      },
+      {
+        "name": "MedidaProfundidadeEsferica",
+        "code": "V7PMEDPR"
+      },
+      {
+        "name": "MedidaSemiEixoMenorEliptica",
+        "code": "V7PMEDSE"
+      },
+      {
+        "name": "MedidaEixoMenorEliptica",
+        "code": "V7PMEDEE"
+      },
+      {
+        "name": "MedidaEixoMaiorEliptica",
+        "code": "V7PMEDEM"
+      },
+      {
+        "name": "IndicadorCalculoBaseAlturaRegua",
+        "code": "V7PINDBA"
+      },
+      {
+        "name": "CodigoUnidadeMedidaRegua",
+        "code": "V7PUNIDA"
+      }
+    ]
+  },
+  "V7QSOBMT": {
+    "name": "SolicitacaoAtualizacaoBlocoMedidor",
+    "code": "V7QSOBMT",
+    "columns": [
+      {
+        "name": "IdentificadorSolicitacaoAtualizacaoBlocoMedidor",
+        "code": "V7QIDSOP"
+      },
+      {
+        "name": "IdentificadorSolicitacaoAtualizacaoProdutoPostoAbastecimento",
+        "code": "V7QIDSOT"
+      },
+      {
+        "name": "IdentificadorBlocoMedidor",
+        "code": "V7QIDEBM"
+      },
+      {
+        "name": "DataHoraLocalCriacao",
+        "code": "V7QDTLCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V7QUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V7QDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V7QUSUAT"
+      },
+      {
+        "name": "IndicadorAtivo",
+        "code": "V7QATIVO"
+      },
+      {
+        "name": "IdentificadorProdutoPosto",
+        "code": "V7QIDEPP"
+      },
+      {
+        "name": "Codigo",
+        "code": "V7QCODIG"
+      },
+      {
+        "name": "Descricao",
+        "code": "V7QDESCR"
+      },
+      {
+        "name": "QuantidadeLitrosToleranciaAcimaEncerrante",
+        "code": "V7QQTACE"
+      },
+      {
+        "name": "QuantidadeLitrosToleranciaAbaixoEncerrante",
+        "code": "V7QQTABE"
+      },
+      {
+        "name": "QuantidadeTotalDigitos",
+        "code": "V7QQTTDG"
+      },
+      {
+        "name": "QuantidadeDigitosDecimais",
+        "code": "V7QQTDGD"
+      }
+    ]
+  },
+  "V7RSOTRT": {
+    "name": "SolicitacaoAtualizacaoTransferenciaProduto",
+    "code": "V7RSOTRT",
+    "columns": [
+      {
+        "name": "IdentificadorSolicitacaoAtualizacaoTransferenciaProduto",
+        "code": "V7RIDSOA"
+      },
+      {
+        "name": "IdentificadorSolicitacaoAtualizacao",
+        "code": "V7RIDSOL"
+      },
+      {
+        "name": "IdentificadorTransferenciaProduto",
+        "code": "V7RIDETR"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V7RDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V7RUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V7RDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V7RUSUAT"
+      },
+      {
+        "name": "IdentificadorProduto",
+        "code": "V7RIDEPR"
+      },
+      {
+        "name": "IdentificadorAberturaFechamentoTurnoPostoOrigem",
+        "code": "V7RIDETO"
+      },
+      {
+        "name": "IdentificadorUsuarioResponsavelPostoOrigem",
+        "code": "V7RUSUPO"
+      },
+      {
+        "name": "DataHoraUTCInicioRetiradaOrigem",
+        "code": "V7RDTUIO"
+      },
+      {
+        "name": "DataHoraUTCFimRetiradaOrigem",
+        "code": "V7RDTUFO"
+      },
+      {
+        "name": "IdentificadorEncerranteBlocoMedidorOrigem",
+        "code": "V7RIDEEB"
+      },
+      {
+        "name": "NomeSistemaOrigemDadoPostoOrigem",
+        "code": "V7RSISTO"
+      },
+      {
+        "name": "IndicadorSituacao",
+        "code": "V7RINDST"
+      },
+      {
+        "name": "IdentificadorProdutoPostoDestino",
+        "code": "V7RIDEPP"
+      },
+      {
+        "name": "CodigoPlantaDepositoSAPDestino",
+        "code": "V7RCDPLA"
+      },
+      {
+        "name": "CodigoDepositoSAPDestino",
+        "code": "V7RCDDEP"
+      },
+      {
+        "name": "IdentificadorAberturaFechamentoTurnoPostoDestino",
+        "code": "V7RIDETD"
+      },
+      {
+        "name": "IdentificadorUsuarioResponsavelPostoDestino",
+        "code": "V7RUSUPD"
+      },
+      {
+        "name": "DataHoraUTCInicioRecebimentoDestino",
+        "code": "V7RDTUID"
+      },
+      {
+        "name": "DataHoraUTCFimRecebimentoDestino",
+        "code": "V7RDTUFD"
+      },
+      {
+        "name": "NumeroIdentificacaoLacres",
+        "code": "V7RNUMLC"
+      },
+      {
+        "name": "QuantidadeLacres",
+        "code": "V7RQTDLC"
+      },
+      {
+        "name": "CodigoHexadecimalCorLacres",
+        "code": "V7RCORLC"
+      },
+      {
+        "name": "QuantidadeTransferida",
+        "code": "V7RQTDTR"
+      },
+      {
+        "name": "QuantidadeTransferida20GrausCelsius",
+        "code": "V7RQTD20"
+      },
+      {
+        "name": "MedidaTemperaturaProduto",
+        "code": "V7RTEMPR"
+      },
+      {
+        "name": "MedidaDensidadeProduto",
+        "code": "V7RDENSI"
+      },
+      {
+        "name": "NomeSistemaOrigemDadoPostoDestino",
+        "code": "V7RSISTD"
+      },
+      {
+        "name": "IndicadorUtilizacaoSkidPostoDestino",
+        "code": "V7RINDRS"
+      },
+      {
+        "name": "IdentificadorCargaMassaMovimentacao",
+        "code": "V7RIDECS"
+      },
+      {
+        "name": "IdentificadorEmpresaTransportadora",
+        "code": "V7RIDEEM"
+      },
+      {
+        "name": "IdentificadorCaminhaoTanque",
+        "code": "V7RIDECT"
+      },
+      {
+        "name": "IdentificadorCavaloMecanico",
+        "code": "V7RIDECM"
+      },
+      {
+        "name": "IdentificadorMotoristaCavaloCaminhaoTanque",
+        "code": "V7RIDEMC"
+      },
+      {
+        "name": "IndicadorConcordanciaMotorista",
+        "code": "V7RINDCM"
+      }
+    ]
+  },
+  "V7SSOAFT": {
+    "name": "SolicitacaoAtualizacaoAfericaoBlocoMedidor",
+    "code": "V7SSOAFT",
+    "columns": [
+      {
+        "name": "IdentificadorSolicitacaoAtualizacaoAfericaoBlocoMedidor",
+        "code": "V7SIDSOA"
+      },
+      {
+        "name": "IdentificadorSolicitacaoAtualizacao",
+        "code": "V7SIDSOL"
+      },
+      {
+        "name": "IdentificadorAfericaoBlocoMedidor",
+        "code": "V7SIDEAF"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V7SDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V7SUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V7SDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V7SUSUAT"
+      },
+      {
+        "name": "IdentificadorProduto",
+        "code": "V7SIDEPR"
+      },
+      {
+        "name": "IdentificadorAberturaFechamentoTurnoPosto",
+        "code": "V7SIDETA"
+      },
+      {
+        "name": "IdentificadorUsuarioResponsavelAfericao",
+        "code": "V7SUSUAF"
+      },
+      {
+        "name": "IdentificadorEncerranteBlocoMedidor",
+        "code": "V7SIDEEB"
+      },
+      {
+        "name": "IndicePercentualErroAfericao",
+        "code": "V7SINDER"
+      },
+      {
+        "name": "IndicePercentualCalibracao",
+        "code": "V7SINDCA"
+      },
+      {
+        "name": "NomeOrgaoCertificador",
+        "code": "V7SDECOC"
+      },
+      {
+        "name": "NumeroCertificado",
+        "code": "V7SNUMCE"
+      },
+      {
+        "name": "DataValidadeCertificado",
+        "code": "V7SDTHVC"
+      },
+      {
+        "name": "NomeSistemaOrigemDado",
+        "code": "V7SSISTO"
+      },
+      {
+        "name": "IndicadorRetornoProduto",
+        "code": "V7SINDRP"
+      },
+      {
+        "name": "QuantidadeProdutoAfericao",
+        "code": "V7SQTDPA"
+      }
+    ]
+  },
+  "V7TSODVT": {
+    "name": "SolicitacaoAtualizacaoDevolucaoProduto",
+    "code": "V7TSODVT",
+    "columns": [
+      {
+        "name": "IdentificadorSolicitacaoAtualizacaoDevolucaoProduto",
+        "code": "V7TIDSOA"
+      },
+      {
+        "name": "IdentificadorSolicitacaoAtualizacao",
+        "code": "V7TIDSOL"
+      },
+      {
+        "name": "IdentificadorDevolucaoProduto",
+        "code": "V7TIDDEV"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V7TDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V7TUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V7TDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V7TUSUAT"
+      },
+      {
+        "name": "IdentificadorProdutoPosto",
+        "code": "V7TIDEPP"
+      },
+      {
+        "name": "IdentificadorAberturaFechamentoTurnoPosto",
+        "code": "V7TIDETA"
+      },
+      {
+        "name": "IdentificadorEquipamento",
+        "code": "V7TIDEEQ"
+      },
+      {
+        "name": "QuantidadeProdutoDevolvida",
+        "code": "V7TQTDEV"
+      },
+      {
+        "name": "DataHoraUTCDevolucao",
+        "code": "V7TDTDEV"
+      },
+      {
+        "name": "IdentificadorUsuarioResponsavelDevolucao",
+        "code": "V7TUSDEV"
+      }
+    ]
+  },
+  "V7USORFT": {
+    "name": "SolicitacaoAtualizacaoRecebimentoFiscalProduto",
+    "code": "V7USORFT",
+    "columns": [
+      {
+        "name": "IdentificadorSolicitacaoAtualizacaoRecebimentoFiscalProduto",
+        "code": "V7UIDSOA"
+      },
+      {
+        "name": "IdentificadorSolicitacaoAtualizacao",
+        "code": "V7UIDSOL"
+      },
+      {
+        "name": "IdentificadorRecebimentoFiscalProduto",
+        "code": "V7UIDRFS"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V7UDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V7UUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V7UDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V7UUSUAT"
+      },
+      {
+        "name": "IdentificadorPostoAbastecimento",
+        "code": "V7UIDEPA"
+      },
+      {
+        "name": "IdentificadorAberturaFechamentoTurnoPosto",
+        "code": "V7UIDETA"
+      },
+      {
+        "name": "IdentificadorProdutoNotaFiscal",
+        "code": "V7UIDEPR"
+      },
+      {
+        "name": "IdentificadorEmpresaFornecedora",
+        "code": "V7UIDEEF"
+      },
+      {
+        "name": "IdentificadorEmpresaTransportadora",
+        "code": "V7UIDEET"
+      },
+      {
+        "name": "IdentificadorUsuarioResponsavelRecebimento",
+        "code": "V7UUSURE"
+      },
+      {
+        "name": "DataHoraUTCInicioRecebimentoFiscal",
+        "code": "V7UDTUIR"
+      },
+      {
+        "name": "DataHoraUTCFimRecebimentoFiscal",
+        "code": "V7UDTUFR"
+      },
+      {
+        "name": "IndicadorTipoRecebimento",
+        "code": "V7UTIPOR"
+      },
+      {
+        "name": "IdentificadorVagaoTanque",
+        "code": "V7UIDEVT"
+      },
+      {
+        "name": "IdentificadorCaminhaoTanque",
+        "code": "V7UIDECT"
+      },
+      {
+        "name": "IdentificadorCavaloMecanico",
+        "code": "V7UIDECM"
+      },
+      {
+        "name": "IdentificadorMotoristaCavaloCaminhaoTanque",
+        "code": "V7UIDEMC"
+      },
+      {
+        "name": "CodigoBarrasNotaFiscal",
+        "code": "V7UCODBR"
+      },
+      {
+        "name": "CodigoDANFENotaFiscal",
+        "code": "V7UDANFE"
+      },
+      {
+        "name": "DataEmissaoNotaFiscal",
+        "code": "V7UDTEMI"
+      },
+      {
+        "name": "IdentificadorGrupoRecebimentoFisicoFiscal",
+        "code": "V7UIDGRE"
+      },
+      {
+        "name": "NumeroIdentificacaoLacres",
+        "code": "V7UNUMLC"
+      },
+      {
+        "name": "QuantidadeLacres",
+        "code": "V7UQTDLC"
+      },
+      {
+        "name": "CodigoHexadecimalCorLacres",
+        "code": "V7UCORLC"
+      },
+      {
+        "name": "QuantidadeProdutoNotaFiscal",
+        "code": "V7UQTDPR"
+      },
+      {
+        "name": "PrecoUnitarioProdutoNotaFiscal",
+        "code": "V7UPREUN"
+      },
+      {
+        "name": "PesoBrutoNotaFiscal",
+        "code": "V7UPESOB"
+      },
+      {
+        "name": "PesoLiquidoNotaFiscal",
+        "code": "V7UPESOL"
+      },
+      {
+        "name": "PesoBrutoVale",
+        "code": "V7UPBVAL"
+      },
+      {
+        "name": "NomeSistemaOrigemDado",
+        "code": "V7USISTO"
+      },
+      {
+        "name": "DataHoraUTCChegadaCaminhaoPortaria",
+        "code": "V7UDTUCC"
+      },
+      {
+        "name": "DataHoraUTCEntradaCaminhaoPortaria",
+        "code": "V7UDTUEC"
+      },
+      {
+        "name": "DataHoraUTCSaidaCaminhaoPortaria",
+        "code": "V7UDTUSC"
+      }
+    ]
+  },
+  "V7VSOAET": {
+    "name": "SolicitacaoAjusteEncerranteBlocoMedidor",
+    "code": "V7VSOAET",
+    "columns": [
+      {
+        "name": "IdentificadorSolicitacaoAtualizacaoAjusteEncerranteBlocoMedidor",
+        "code": "V7VIDSOA"
+      },
+      {
+        "name": "IdentificadorSolicitacaoAtualizacao",
+        "code": "V7VIDSOL"
+      },
+      {
+        "name": "IdentificadorAjusteEncerranteBlocoMedidor",
+        "code": "V7VIDEAJ"
+      },
+      {
+        "name": "DataHoraUTCCriacao",
+        "code": "V7VDTUCR"
+      },
+      {
+        "name": "IdentificadorUsuarioCriacao",
+        "code": "V7VUSUCR"
+      },
+      {
+        "name": "DataHoraUTCUltimaAtualizacao",
+        "code": "V7VDTUAT"
+      },
+      {
+        "name": "IdentificadorUsuarioUltimaAtualizacao",
+        "code": "V7VUSUAT"
+      },
+      {
+        "name": "IdentificadorProduto",
+        "code": "V7VIDEPR"
+      },
+      {
+        "name": "IdentificadorAberturaFechamentoTurnoPosto",
+        "code": "V7VIDETA"
+      },
+      {
+        "name": "IdentificadorEncerranteBlocoMedidorAnterior",
+        "code": "V7VIDEBN"
+      },
+      {
+        "name": "IdentificadorEncerranteBlocoMedidorAtual",
+        "code": "V7VIDEBT"
+      },
+      {
+        "name": "NomeSistemaOrigemDado",
+        "code": "V7VSISTO"
+      }
+    ]
+  }
+}
