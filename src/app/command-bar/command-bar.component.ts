@@ -13,6 +13,13 @@ export class CommandBarComponent implements OnInit {
   ngOnInit() {
   }
 
+  about() {
+    alert(`
+      Developed by: Shermam Miranda
+      https://github.com/shermam/web-db-query
+    `)
+  }
+
   excecuteQuery() {
     this.queryService.excecuteQuery();
   }
