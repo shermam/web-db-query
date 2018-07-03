@@ -15,7 +15,7 @@ export class QueryService {
   results: any[];
   headers: string[];
   queryText: string;
-  serverURL: string = "http://localhost:61467/server/ashx/_query.ashx";
+  serverURL: string = "../server/ashx/_query.ashx";
   queryStructure: string = "select table_name, column_name from information_schema.columns order by TABLE_NAME, ORDINAL_POSITION;";
   connectionString: string = localStorage.getItem("connectionString");
 
