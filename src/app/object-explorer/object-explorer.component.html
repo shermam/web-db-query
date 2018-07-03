@@ -2,9 +2,9 @@
   Object Explorer
 </div>
 <div class="object-tree">
-  <ul>
+  <ul *ngIf="queryService.tables && queryService.tables.length">
     <li class="table-name"
-        *ngFor="let table of tables">
+        *ngFor="let table of queryService.tables">
       <div class="descricao">
         <span class="plus"
               (click)="table.showColumns = !table.showColumns">+</span>

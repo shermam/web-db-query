@@ -17,4 +17,20 @@ export class CommandBarComponent implements OnInit {
     this.queryService.excecuteQuery();
   }
 
+  refreshTables() {
+    this.queryService.refreshTables();
+  }
+
+  setConnectionString() {
+    const connectionString = prompt(
+      "Digite a string de conexão",
+      this.queryService.connectionString || ""
+    );
+
+    if (connectionString) {
+      this.queryService.setConnectionString(connectionString);
+      this.queryService.refreshTables();
+    }
+  }
+
 }

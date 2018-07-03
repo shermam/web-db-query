@@ -5,26 +5,41 @@ import { Structure } from "../types/structure";
 import { Table } from "../types/table";
 import { Http } from "@angular/http";
 
-const response = [{ "IDC_ASPECTO_VISUAL": 1, "DSC_ASPECTO_VISUAL": "Límpido e sem impurezas", "STU_ASPECTO_VISUAL": "S", "DTH_CRIACAO_REG": "\/Date(1479344084897)\/" }, { "IDC_ASPECTO_VISUAL": 2, "DSC_ASPECTO_VISUAL": "Líquido viscoso e Límpido", "STU_ASPECTO_VISUAL": "S", "DTH_CRIACAO_REG": "\/Date(1479344084900)\/" }];
-
 @Injectable({
   providedIn: 'root'
 })
 export class QueryService {
 
+  tables: Table[];
   results: any[];
   headers: string[];
   queryText: string;
   serverURL: string = "http://localhost:61467/server/ashx/_query.ashx";
-  connectionString: string = "Password=ihm@123;Persist Security Info=True;User ID=sa;Initial Catalog=PF_PRD;Data Source=LOCALHOST\\SQLEXPRESS01";
+  queryStructure: string = "select table_name, column_name from information_schema.columns order by table_name;";
+  connectionString: string = localStorage.getItem("connectionString");
 
   constructor(private http: Http) {
+    this.refreshTables();
+  }
 
+  refreshTables() {
+    this.getTables()
+      .subscribe(tables => this.tables = tables);
+  }
+
+  setConnectionString(connectionString: string) {
+    this.connectionString = connectionString;
+    localStorage.setItem("connectionString", this.connectionString);
   }
 
   query(queryText: string): Observable<any[]> {
+
+    if (!this.connectionString) {
+      return of(null);
+    }
+
     return this.http.post(this.serverURL, {
-      Query: this.queryText,
+      Query: queryText,
       ConnectionString: this.connectionString
     }).pipe(
       map(response => response.json())
@@ -42,14 +57,20 @@ export class QueryService {
 
 
   getTables(): Observable<Table[]> {
-    return this.http.get("assets/tabelas.json")
+    //return this.http.get("assets/tabelas.json")
+    return this.query(this.queryStructure)
       .pipe(
-        map(response => this.structureToTable(response.json()))
+        map(response => this.structureToTable(response))
       );
   }
 
   structureToTable(structures: Structure[]): Table[] {
     const tables = [];
+
+    if (!structures || !structures.length) {
+      return tables;
+    }
+
     let currentTable = new Table;
 
     for (const structure of structures) {
